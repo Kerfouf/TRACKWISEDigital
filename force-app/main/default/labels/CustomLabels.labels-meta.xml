@@ -1,0 +1,4118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>ADDENDUM_EVENT_ONLY_ONE_PARENT_AND_MANDATORY</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ADDENDUM_EVENT_ONLY_ONE_PARENT_AND_MANDATORY</shortDescription>
+        <value>Sorry but one and only one value is mandatory between:
+
+- Quality Event
+- Cause Investigation
+- CAPA
+- CAPA Action
+- Correction
+- Risk File Review
+- QMS Task
+- Change Request
+-Audit Finding
+-Audits Schedule
+-Quality Audit
+
+
+Please have one and only one of these values.</value>
+    </labels>
+    <labels>
+        <fullName>ADD_PRODUCTS_FROM_SAP</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ADD_PRODUCTS_FROM_SAP</shortDescription>
+        <value>Add products from SAP</value>
+    </labels>
+    <labels>
+        <fullName>AI_Cancel</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AI Cancel</shortDescription>
+        <value>Cancel</value>
+    </labels>
+    <labels>
+        <fullName>AI_Cancel_Esig</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AI Cancel Esig</shortDescription>
+        <value>Cancel Action Item Esig</value>
+    </labels>
+    <labels>
+        <fullName>ASSESSMENTS_DELETE_ERROR_MESSAGE</fullName>
+        <categories>Assessments</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ASSESSMENTS_DELETE_ERROR_MESSAGE</shortDescription>
+        <value>You cannot delete an assessment.</value>
+    </labels>
+    <labels>
+        <fullName>AUDITFINDING_REMOVE_ERROR_MESSAGE</fullName>
+        <categories>AuditFinding</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AUDITFINDING_REMOVE_ERROR_MESSAGE</shortDescription>
+        <value>Audit findings cannot be removed after audit has been approved</value>
+    </labels>
+    <labels>
+        <fullName>Action_Complete</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Action Complete</shortDescription>
+        <value>Action Complete</value>
+    </labels>
+    <labels>
+        <fullName>After_Release_Items_Complete</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>After Release Items Complete</shortDescription>
+        <value>After Release Items Complete</value>
+    </labels>
+    <labels>
+        <fullName>After_Release_Items_in_Progress</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>After Release Items in Progress</shortDescription>
+        <value>After Release Items in Progress</value>
+    </labels>
+    <labels>
+        <fullName>All_After_Release_Items_Are_Complete</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>All After Release Items Are Complete</shortDescription>
+        <value>All After Release Items Are Complete</value>
+    </labels>
+    <labels>
+        <fullName>All_Optional_Approvals_Completed</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>All Optional Approvals Completed</shortDescription>
+        <value>All Optional Approvals Completed</value>
+    </labels>
+    <labels>
+        <fullName>Approve</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Approve</shortDescription>
+        <value>Approve</value>
+    </labels>
+    <labels>
+        <fullName>Approve_Change_Successful</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Approve - Change Successful</shortDescription>
+        <value>Approve - Change Successful</value>
+    </labels>
+    <labels>
+        <fullName>Approve_Change_Unsuccessful</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Approve - Change Unsuccessful</shortDescription>
+        <value>Approve - Change Unsuccessful</value>
+    </labels>
+    <labels>
+        <fullName>Approve_Release_QA</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Approve Release (QA)</shortDescription>
+        <value>Approve Release (QA)</value>
+    </labels>
+    <labels>
+        <fullName>Approver_1_Approve</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Approver_1_Approve</shortDescription>
+        <value>Approver 1 Approve</value>
+    </labels>
+    <labels>
+        <fullName>Approver_1_Reject</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Approver 1 Reject</shortDescription>
+        <value>Approver 1 Reject</value>
+    </labels>
+    <labels>
+        <fullName>Approver_2_Approve</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Approver 2 Approve</shortDescription>
+        <value>Approver 2 Approve</value>
+    </labels>
+    <labels>
+        <fullName>Approver_2_Reject</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Approver 2 Reject</shortDescription>
+        <value>Approver 2 Reject</value>
+    </labels>
+    <labels>
+        <fullName>Approver_3_Approve</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Approver 3 Approve</shortDescription>
+        <value>Approver 3 Approve</value>
+    </labels>
+    <labels>
+        <fullName>Approver_3_Reject</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Approver 3 Reject</shortDescription>
+        <value>Approver 3 Reject</value>
+    </labels>
+    <labels>
+        <fullName>Approver_4_Approve</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Approver 4 Approve</shortDescription>
+        <value>Approver 4 Approve</value>
+    </labels>
+    <labels>
+        <fullName>Approver_4_Reject</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Approver 4 Reject</shortDescription>
+        <value>Approver 4 Reject</value>
+    </labels>
+    <labels>
+        <fullName>Approver_5_Reject</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Approver 5 Reject</shortDescription>
+        <value>Approver 5 Reject</value>
+    </labels>
+    <labels>
+        <fullName>Approver_5_approve</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Approver 5 approve</shortDescription>
+        <value>Approver 5 approve</value>
+    </labels>
+    <labels>
+        <fullName>Approver_6_Approve</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Approver 6 Approve</shortDescription>
+        <value>Approver 6 Approve</value>
+    </labels>
+    <labels>
+        <fullName>Approver_6_Reject</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Approver 6 Reject</shortDescription>
+        <value>Approver 6 Reject</value>
+    </labels>
+    <labels>
+        <fullName>Assessment_Completed</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Assessment Completed</shortDescription>
+        <value>Assessment Completed</value>
+    </labels>
+    <labels>
+        <fullName>AuditFindingCreationError</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AuditFindingCreationError</shortDescription>
+        <value>You have no right to create an Audit Finding.</value>
+    </labels>
+    <labels>
+        <fullName>Audit_Agenda_Limit_Edit_Error</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Audit Agenda Limit Edit Error</shortDescription>
+        <value>You have no right to create or update Audit Agenda</value>
+    </labels>
+    <labels>
+        <fullName>Audit_Schedule_Implementation</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Audit Schedule Implementation</shortDescription>
+        <value>Audit Schedule Implementation</value>
+    </labels>
+    <labels>
+        <fullName>Automated_Change</fullName>
+        <categories>RFC</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Automated Change</shortDescription>
+        <value>Automated Change</value>
+    </labels>
+    <labels>
+        <fullName>BATCH_LOT_NUMBER</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BATCH_LOT_NUMBER</shortDescription>
+        <value>Batch/Lot Number</value>
+    </labels>
+    <labels>
+        <fullName>BATCH_NUMBER</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BATCH_NUMBER</shortDescription>
+        <value>Batch Number</value>
+    </labels>
+    <labels>
+        <fullName>BMX_MULTI_USER_AVAILABLE_USERS</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BMX_MULTI_USER_AVAILABLE_USERS</shortDescription>
+        <value>Available users</value>
+    </labels>
+    <labels>
+        <fullName>BMX_MULTI_USER_FILTER</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BMX_MULTI_USER_FILTER</shortDescription>
+        <value>Filter</value>
+    </labels>
+    <labels>
+        <fullName>BMX_MULTI_USER_SELECTED_USERS</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BMX_MULTI_USER_SELECTED_USERS</shortDescription>
+        <value>Selected users</value>
+    </labels>
+    <labels>
+        <fullName>BMX_QUALITY_EVENT_ADD_CONTRIB_COMPONENT_TITLE</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BMX_QUALITY_EVENT_ADD_CONTRIB_COMPONENT_TITLE</shortDescription>
+        <value>Manage contributors</value>
+    </labels>
+    <labels>
+        <fullName>BMX_TR_PDF_POPUP_HEADER</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BMX_TR_PDF_POPUP_HEADER</shortDescription>
+        <value>Generate and Attach PDF</value>
+    </labels>
+    <labels>
+        <fullName>BMX_TR_PDF_POPUP_LOADING</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BMX_TR_PDF_POPUP_LOADING</shortDescription>
+        <value>Generating and attaching PDF...</value>
+    </labels>
+    <labels>
+        <fullName>BMX_TR_PDF_POPUP_TXT_1</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BMX_TR_PDF_POPUP_TXT_1</shortDescription>
+        <value>You can preview the PDF by clicking on</value>
+    </labels>
+    <labels>
+        <fullName>BMX_TR_PDF_POPUP_TXT_2</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BMX_TR_PDF_POPUP_TXT_2</shortDescription>
+        <value>this link</value>
+    </labels>
+    <labels>
+        <fullName>BMX_TR_PDF_POPUP_TXT_3</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BMX_TR_PDF_POPUP_TXT_3</shortDescription>
+        <value>Use the below button to attach the PDF to the record.</value>
+    </labels>
+    <labels>
+        <fullName>CAPA_ACTION_INACTIVE_ASSIGNEE</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CAPA_ACTION_INACTIVE_ASSIGNEE</shortDescription>
+        <value>The CAPA Action {0} has an Assignee {1}  that is Inactive</value>
+    </labels>
+    <labels>
+        <fullName>CAPA_ACTION_NO_ASSIGNEE</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CAPA_ACTION_NO_ASSIGNEE</shortDescription>
+        <value>The CAPA Action {0} has no Assignee</value>
+    </labels>
+    <labels>
+        <fullName>CAPA_ACTION_NO_DUE_DATE</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CAPA_ACTION_NO_DUE_DATE</shortDescription>
+        <value>At minimum, CAPA action {0} needs a Due Date before sending CAPA for approval. You can check other actions from the list page.</value>
+    </labels>
+    <labels>
+        <fullName>CAPA_CANNOT_CHANGE_STATUS_TO_IMPLEMENTATION_UNTIL_ALL_PLANS_APPROVED</fullName>
+        <categories>CAPA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CAPA_CANNOT_CHANGE_STATUS_TO_IMPLEMENTATION_UNTIL_ALL_PLANS_APPROVED</shortDescription>
+        <value>You cannot change the status to implementation until you approve all the Plans</value>
+    </labels>
+    <labels>
+        <fullName>CAPA_CANNOT_DELETE_EXISTING_RECORD</fullName>
+        <categories>CAPA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CAPA_CANNOT_DELETE_EXISTING_RECORD</shortDescription>
+        <value>You cannot delete the existing record</value>
+    </labels>
+    <labels>
+        <fullName>CAPA_CANNOT_DELETE_RECORD_WHEN_CAPA_APPROVED</fullName>
+        <categories>CAPA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CAPA_CANNOT_DELETE_RECORD_WHEN_CAPA_APPROVED</shortDescription>
+        <value>You cannot Delete the record once the CAPA is Approved</value>
+    </labels>
+    <labels>
+        <fullName>CAPA_CANNOT_INSERT_RECORD</fullName>
+        <categories>CAPA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CAPA_CANNOT_INSERT_RECORD</shortDescription>
+        <value>You cannot insert a new record</value>
+    </labels>
+    <labels>
+        <fullName>CAPA_CANNOT_INSERT_RECORD_ONCE_CAPA_APPROVED</fullName>
+        <categories>CAPA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CAPA_CANNOT_INSERT_RECORD_ONCE_CAPA_APPROVED</shortDescription>
+        <value>You cannot insert a new record once the CAPA is Approved</value>
+    </labels>
+    <labels>
+        <fullName>CAPA_CANNOT_MODIFY_EC_WHEN_CAPA_CLOSED</fullName>
+        <categories>CAPA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CAPA_CANNOT_MODIFY_EC_WHEN_CAPA_CLOSED</shortDescription>
+        <value>You cannot modify the EC once the CAPA status is closed</value>
+    </labels>
+    <labels>
+        <fullName>CAPA_CANNOT_PERFORM_ACTION_EFFECTIVENESS_CHECKS_DEFINED</fullName>
+        <categories>CAPA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CAPA_CANNOT_PERFORM_ACTION_EFFECTIVENESS_CHECKS_DEFINED</shortDescription>
+        <value>You cannot perform this action since Effectiveness Check(s) are defined for this record.You can perform *Verify Effectiveness - CAPA Action Plan* action.</value>
+    </labels>
+    <labels>
+        <fullName>CAPA_CANNOT_SUBMIT_EFFECTIVENESS_CHECK_NO_TASKS</fullName>
+        <categories>CAPA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CAPA_CANNOT_SUBMIT_EFFECTIVENESS_CHECK_NO_TASKS</shortDescription>
+        <value>Cannot submit Effectiveness Check for Approval without any Tasks</value>
+    </labels>
+    <labels>
+        <fullName>CAPA_CANNOT_SUBMIT_FOR_REVIEW_CLOSE_INVESTIGATIONS</fullName>
+        <categories>CAPA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CAPA_CANNOT_SUBMIT_FOR_REVIEW_CLOSE_INVESTIGATIONS</shortDescription>
+        <value>You cannot perform the action Submit for Review - CAPA until you Close all investigations</value>
+    </labels>
+    <labels>
+        <fullName>CAPA_CANNOT_SUBMIT_FOR_REVIEW_NO_TASKS_ACTION_PLAN</fullName>
+        <categories>CAPA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CAPA_CANNOT_SUBMIT_FOR_REVIEW_NO_TASKS_ACTION_PLAN</shortDescription>
+        <value>Cannot Submit for Review - CAPA Action Plan for Approval without any Tasks</value>
+    </labels>
+    <labels>
+        <fullName>CAPA_NEED_ATLEAST_ONE_CAPA_PLAN_BEFORE_SUBMIT</fullName>
+        <categories>CAPA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CAPA_NEED_ATLEAST_ONE_CAPA_PLAN_BEFORE_SUBMIT</shortDescription>
+        <value>You need to add atleast one CAPA Plan before submitting</value>
+    </labels>
+    <labels>
+        <fullName>CAPA_NO_ACTION</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CAPA_NO_ACTION</shortDescription>
+        <value>The CAPA has no active CAPA Action</value>
+    </labels>
+    <labels>
+        <fullName>CAPA_PREVENT_CANCELLATION_ONGOING_CHILDREN</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CAPA_PREVENT_CANCELLATION_ONGOING_CHILDREN</shortDescription>
+        <value>You can&apos;t Cancel the CAPA since it has related CAPA Actions that are not in the Initiated/Canceled Status</value>
+    </labels>
+    <labels>
+        <fullName>CATALOG_PROFILE_NAME</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CATALOG_PROFILE_NAME</shortDescription>
+        <value>Catalog Profile Name</value>
+    </labels>
+    <labels>
+        <fullName>CC_CANNOT_CLOSE_EFFECTIVENESS_CHECK_INCOMPLETE</fullName>
+        <categories>Change Control</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CC_CANNOT_CLOSE_EFFECTIVENESS_CHECK_INCOMPLETE</shortDescription>
+        <value>Cannot be closed if Effectiveness Check is required but not completed</value>
+    </labels>
+    <labels>
+        <fullName>CC_CANNOT_DELETE_CC_PLAN_AFTER_COMPLETE_REVIEW</fullName>
+        <categories>Change Control</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CC_CANNOT_DELETE_CC_PLAN_AFTER_COMPLETE_REVIEW</shortDescription>
+        <value>No change control plans can be deleted after Complete Review Change Control</value>
+    </labels>
+    <labels>
+        <fullName>CC_CANNOT_PERFORM_EFFECTIVENESS_CHECK_PLAN_COMPLETE_ACTION_WITHOUT_ANY_EC</fullName>
+        <categories>Change Control</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CC_CANNOT_PERFORM_EFFECTIVENESS_CHECK_PLAN_COMPLETE_ACTION_WITHOUT_ANY_EC</shortDescription>
+        <value>Cannot perform effectiveness check plan complete action without any effectiveness checks</value>
+    </labels>
+    <labels>
+        <fullName>CC_CANNOT_PERFORM_PENDING_CHANGE_CONTROL_PLANS</fullName>
+        <categories>Change Control</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CC_CANNOT_PERFORM_PENDING_CHANGE_CONTROL_PLANS</shortDescription>
+        <value>Cannot perform as there are pending change change control plans</value>
+    </labels>
+    <labels>
+        <fullName>CC_CANNOT_PERFORM_WHEN_EFFECTIVENESS_CHECKS_EXIST</fullName>
+        <categories>Change Control</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CC_CANNOT_PERFORM_WHEN_EFFECTIVENESS_CHECKS_EXIST</shortDescription>
+        <value>Cannot perform when effectiveness checks exist</value>
+    </labels>
+    <labels>
+        <fullName>CC_CANNOT_SUBMIT_ACTION_PLAN_WITHOUT_TASKS</fullName>
+        <categories>Change Control</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CC_CANNOT_SUBMIT_ACTION_PLAN_WITHOUT_TASKS</shortDescription>
+        <value>Cannot submit Action Plan for Approval without any Tasks</value>
+    </labels>
+    <labels>
+        <fullName>CC_CANNOT_SUBMIT_EFFECTIVENESS_CHECK_WITHOUT_TASKS</fullName>
+        <categories>Change Control</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CC_CANNOT_SUBMIT_EFFECTIVENESS_CHECK_WITHOUT_TASKS</shortDescription>
+        <value>Cannot submit Effectiveness Check for Approval without any Tasks</value>
+    </labels>
+    <labels>
+        <fullName>CC_CANNOT_SUBMIT_FOR_REVIEW_WTHOUT_CC_PLANS</fullName>
+        <categories>Change Control</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CC_CANNOT_SUBMIT_FOR_REVIEW_WTHOUT_CC_PLANS</shortDescription>
+        <value>Cannot submit Change Control for Review without any change control plans</value>
+    </labels>
+    <labels>
+        <fullName>COMPLAINT_DELETE_ERROR_MESSAGE</fullName>
+        <categories>Complaint</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>COMPLAINT_DELETE_ERROR_MESSAGE</shortDescription>
+        <value>You cannot delete an Complaint.</value>
+    </labels>
+    <labels>
+        <fullName>CRB_Approver_1_Approves</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CRB Approver 1 Approves</shortDescription>
+        <value>CRB Approver 1 Approves</value>
+    </labels>
+    <labels>
+        <fullName>CRB_Approver_1_Rejects</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CRB Approver 1 Rejects</shortDescription>
+        <value>CRB Approver 1 Rejects</value>
+    </labels>
+    <labels>
+        <fullName>CRB_Approver_2_Approves</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CRB Approver 2 Approves</shortDescription>
+        <value>CRB Approver 2 Approves</value>
+    </labels>
+    <labels>
+        <fullName>CRB_Approver_2_Rejects</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CRB Approver 2 Rejects</shortDescription>
+        <value>CRB Approver 2 Rejects</value>
+    </labels>
+    <labels>
+        <fullName>CRB_Approver_3_Approves</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CRB Approver 3 Approves</shortDescription>
+        <value>CRB Approver 3 Approves</value>
+    </labels>
+    <labels>
+        <fullName>CRB_Approver_3_Rejects</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CRB Approver 3 Rejects</shortDescription>
+        <value>CRB Approver 3 Rejects</value>
+    </labels>
+    <labels>
+        <fullName>CRB_Approver_4_Approves</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CRB Approver 4 Approves</shortDescription>
+        <value>CRB Approver 4 Approves</value>
+    </labels>
+    <labels>
+        <fullName>CRB_Approver_4_Rejects</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CRB Approver 4 Rejects</shortDescription>
+        <value>CRB Approver 4 Rejects</value>
+    </labels>
+    <labels>
+        <fullName>CRB_Approver_5_Approves</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CRB Approver 5 Approves</shortDescription>
+        <value>CRB Approver 5 Approves</value>
+    </labels>
+    <labels>
+        <fullName>CRB_Approver_5_Rejects</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CRB Approver 5 Rejects</shortDescription>
+        <value>CRB Approver 5 Rejects</value>
+    </labels>
+    <labels>
+        <fullName>CRB_Quality_Approver_6_Approves</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CRB Approver 6 Approves</shortDescription>
+        <value>CRB Approver 6 Approves</value>
+    </labels>
+    <labels>
+        <fullName>CRB_Quality_Approver_6_Rejects</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CRB Approver 6 Rejects</shortDescription>
+        <value>CRB Approver 6 Rejects</value>
+    </labels>
+    <labels>
+        <fullName>Cancel</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Cancel</shortDescription>
+        <value>Cancel</value>
+    </labels>
+    <labels>
+        <fullName>Closed_Approved</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Closed - Approved</shortDescription>
+        <value>Closed - Approved</value>
+    </labels>
+    <labels>
+        <fullName>Closed_Canceled</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Closed - Canceled</shortDescription>
+        <value>Closed - Canceled</value>
+    </labels>
+    <labels>
+        <fullName>Closed_Change_Control</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Closed - Change Control</shortDescription>
+        <value>Closed - Change Control</value>
+    </labels>
+    <labels>
+        <fullName>Closed_Done</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Closed - Done</shortDescription>
+        <value>Closed - Done</value>
+    </labels>
+    <labels>
+        <fullName>Closed_Not_Required</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Closed - Not Required</shortDescription>
+        <value>Closed - Not Required</value>
+    </labels>
+    <labels>
+        <fullName>Closed_Unsuccessful</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Closed - Unsuccessful</shortDescription>
+        <value>Closed - Unsuccessful</value>
+    </labels>
+    <labels>
+        <fullName>DATE_OF_MANUFACTURE</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>DATE_OF_MANUFACTURE</shortDescription>
+        <value>Date of Manufacture</value>
+    </labels>
+    <labels>
+        <fullName>Deactivate_Sharing_Successful</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Deactivate_Sharing_Successful</shortDescription>
+        <value>Unsharing is Successful!</value>
+    </labels>
+    <labels>
+        <fullName>Deactivate_Sharing_Unsuccessful</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Deactivate_Sharing_Unsuccessful</shortDescription>
+        <value>Unsharing is Not Successful!</value>
+    </labels>
+    <labels>
+        <fullName>ERROR_APPROVER</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ERROR_INVEST_APPROVER</shortDescription>
+        <value>The {0} has to be a complaint investigator</value>
+    </labels>
+    <labels>
+        <fullName>ERROR_CLOSING_INVEST</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ERROR_CLOSING_INVEST</shortDescription>
+        <value>All the blank fields of the related &apos;Cause &amp; Risk Analysis&apos; and &apos;Run File Analysis&apos; have to be filled to close the investigation</value>
+    </labels>
+    <labels>
+        <fullName>ERROR_CLOSING_INVEST_CRA</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ERROR_CLOSING_INVEST_CRA</shortDescription>
+        <value>All the blank fields of the related &apos;Cause &amp; Risk Analysis&apos; have to be filled to close the investigation</value>
+    </labels>
+    <labels>
+        <fullName>ERROR_CLOSING_INVEST_RFA</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ERROR_CLOSING_INVEST_RFA</shortDescription>
+        <value>All the blank fields in related RFA have to be filled to close the investigation</value>
+    </labels>
+    <labels>
+        <fullName>ERROR_EXTENSION_REQUEST_OPENED</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ERROR_EXTENSION_REQUEST_OPENED</shortDescription>
+        <value>You can&apos;t move this record because linked Extension Request(s) is not closed</value>
+    </labels>
+    <labels>
+        <fullName>ERROR_INCORRECT_CHOICE_1</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ERROR_INCORRECT_CHOICE_1</shortDescription>
+        <value>The F Health Impact Choice 1 must be related to an activate EU MIRE Code which starts with F</value>
+    </labels>
+    <labels>
+        <fullName>ERROR_INCORRECT_CHOICE_2</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ERROR_INCORRECT_CHOICE_2</shortDescription>
+        <value>The F Health Impact Choice 2 must be related to an activate EU MIRE Code which starts with F</value>
+    </labels>
+    <labels>
+        <fullName>ERROR_REQUESTING_SAP</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ERROR_REQUESTING_SAP</shortDescription>
+        <value>A technical error occured while requesting SAP system, please contact the support with the below error</value>
+    </labels>
+    <labels>
+        <fullName>Esign_Approval_forCAPA</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Esign_Approval_forCAPA</shortDescription>
+        <value>I approve this CAPA Action Plan and Effectiveness Plan.</value>
+    </labels>
+    <labels>
+        <fullName>Esign_Approval_forCAPAAction</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Esign_Approval_forCAPAAction</shortDescription>
+        <value>I approve this CAPA Action.</value>
+    </labels>
+    <labels>
+        <fullName>Esign_Approval_forCauInv</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Esign_Approval_forCauInv</shortDescription>
+        <value>I approve this Cause Investigation.</value>
+    </labels>
+    <labels>
+        <fullName>Esign_Approval_forCorrection</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Esign_Approval_forCorrection</shortDescription>
+        <value>I approve this Correction.</value>
+    </labels>
+    <labels>
+        <fullName>Esign_Approval_forExtRequest</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Esign_Approval_forExtRequest</shortDescription>
+        <value>I approve this Extension Request.</value>
+    </labels>
+    <labels>
+        <fullName>Esign_Approval_forQE</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Esign_Approval_forQE</shortDescription>
+        <value>I approve this Quality Event.</value>
+    </labels>
+    <labels>
+        <fullName>Esign_Approval_forQMSTask</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Esign_Approval_forQMSTask</shortDescription>
+        <value>I approve this QMS Task.</value>
+    </labels>
+    <labels>
+        <fullName>Esign_Approval_forRFR</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Esign_Approval_forRFR</shortDescription>
+        <value>I approve this Risk File Review.</value>
+    </labels>
+    <labels>
+        <fullName>Esign_Approve_Effectiveness_forCAPA</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Esign_Approve_Effectiveness_forCAPA</shortDescription>
+        <value>I approve this CAPA  Effectiveness check.</value>
+    </labels>
+    <labels>
+        <fullName>Esign_Approve_Investigation</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Esign-Approve-Investigation</shortDescription>
+        <value>I approve this investigation for closure.</value>
+    </labels>
+    <labels>
+        <fullName>Esign_Approve_Reporting_Decision</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Esign-Approve-Reporting-Decision</shortDescription>
+        <value>I approve the reporting decision.</value>
+    </labels>
+    <labels>
+        <fullName>Esign_Cancel</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Esign-Cancel</shortDescription>
+        <value>I approve the cancellation of this record.</value>
+    </labels>
+    <labels>
+        <fullName>Esign_Cancel_Assessment</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Esign-Cancel-Assessment</shortDescription>
+        <value>I authorize cancellation of this assessment.</value>
+    </labels>
+    <labels>
+        <fullName>Esign_Cancel_Investigation</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Esign-Cancel-Investigation</shortDescription>
+        <value>I authorize the cancellation of this investigation.</value>
+    </labels>
+    <labels>
+        <fullName>Esign_Cancel_forAddendum</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Esign_Cancel_forAddendum</shortDescription>
+        <value>I am cancelling this Addendum.</value>
+    </labels>
+    <labels>
+        <fullName>Esign_Cancel_forCAPA</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Esign_Cancel_forCAPA</shortDescription>
+        <value>I am cancelling this Cause Investigation</value>
+    </labels>
+    <labels>
+        <fullName>Esign_Cancel_forCAPAAction</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Esign_Cancel_forCAPAAction</shortDescription>
+        <value>I am cancelling this CAPA Action.</value>
+    </labels>
+    <labels>
+        <fullName>Esign_Cancel_forCauInv</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Esign_Cancel_forCauInv</shortDescription>
+        <value>I am cancelling this Cause Investigation</value>
+    </labels>
+    <labels>
+        <fullName>Esign_Cancel_forCorrection</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Esign_Cancel_forCorrection</shortDescription>
+        <value>I am cancelling this Correction.</value>
+    </labels>
+    <labels>
+        <fullName>Esign_Cancel_forExtension_Request</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Esign_Cancel_forExtension Request</shortDescription>
+        <value>I am cancelling this Extension Request.</value>
+    </labels>
+    <labels>
+        <fullName>Esign_Cancel_forQE</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Esign_Cancel_forQE</shortDescription>
+        <value>I am cancelling this Quality Event</value>
+    </labels>
+    <labels>
+        <fullName>Esign_Cancel_forQMSTask</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Esign_Cancel_forQMSTask</shortDescription>
+        <value>I am cancelling this QMS Task.</value>
+    </labels>
+    <labels>
+        <fullName>Esign_Cancel_forRFR</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Esign_Cancel_forRFR</shortDescription>
+        <value>I am cancelling this Risk File Review.</value>
+    </labels>
+    <labels>
+        <fullName>Esign_Close_Report</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Esign-Close-Report</shortDescription>
+        <value>I authorize the closure of this report.</value>
+    </labels>
+    <labels>
+        <fullName>Esign_Close_forAddendum</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Esign_Close_forAddendum</shortDescription>
+        <value>I approve this Addendum.</value>
+    </labels>
+    <labels>
+        <fullName>Esign_Complete_Expert_Investigation</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Esign-Complete-Expert-Investigation</shortDescription>
+        <value>I confirm that the expert investigation is complete.</value>
+    </labels>
+    <labels>
+        <fullName>Esign_Complete_Investigation</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Esign-Complete-Investigation</shortDescription>
+        <value>I authorize that this investigation is completed.</value>
+    </labels>
+    <labels>
+        <fullName>Esign_Reject_Close_forExtRequest</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Esign_Reject_Close__forExtRequest</shortDescription>
+        <value>I reject this Extension Request and ask for closure.</value>
+    </labels>
+    <labels>
+        <fullName>Esign_Reject_Effectiveness_forCAPA</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Esign_Reject_Effectiveness_forCAPA</shortDescription>
+        <value>I reject this CAPA  Effectiveness check.</value>
+    </labels>
+    <labels>
+        <fullName>Esign_Reject_Investigation</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Esign-Reject-Investigation</shortDescription>
+        <value>I reject this investigation for closure.</value>
+    </labels>
+    <labels>
+        <fullName>Esign_Reject_Reporting_Decision</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Esign-Reject-Reporting-Decision</shortDescription>
+        <value>I reject the reporting decision.</value>
+    </labels>
+    <labels>
+        <fullName>Esign_Reject_Revise_forExtRequest</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Esign_Reject_Revise__forExtRequest</shortDescription>
+        <value>I reject this Extension Request and ask for revision.</value>
+    </labels>
+    <labels>
+        <fullName>Esign_Reject_forCAPA</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Esign_Reject_forCAPA</shortDescription>
+        <value>I reject this CAPA Action Plan and Effectiveness Plan.</value>
+    </labels>
+    <labels>
+        <fullName>Esign_Reject_forCAPAAction</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Esign_Reject_forCAPAAction</shortDescription>
+        <value>I reject this CAPA Action.</value>
+    </labels>
+    <labels>
+        <fullName>Esign_Reject_forCauInv</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Esign_Reject_forCauInv</shortDescription>
+        <value>I reject this Cause Investigation.</value>
+    </labels>
+    <labels>
+        <fullName>Esign_Reject_forCorrection</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Esign_Reject_forCorrection</shortDescription>
+        <value>I reject this Correction.</value>
+    </labels>
+    <labels>
+        <fullName>Esign_Reject_forQE</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Esign_Reject_forQE</shortDescription>
+        <value>I reject this Quality Event.</value>
+    </labels>
+    <labels>
+        <fullName>Esign_Reject_forQMSTask</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Esign_Reject_forQMSTask</shortDescription>
+        <value>I reject this QMS Task.</value>
+    </labels>
+    <labels>
+        <fullName>Esign_Reject_forRFR</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Esign_Reject_forRFR</shortDescription>
+        <value>I reject this Risk File Review.</value>
+    </labels>
+    <labels>
+        <fullName>Esign_Reopen</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Esign-Reopen</shortDescription>
+        <value>I authorize the reopening of this record.</value>
+    </labels>
+    <labels>
+        <fullName>Esign_Rework</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Esign-Rework</shortDescription>
+        <value>I send this record back for rework.</value>
+    </labels>
+    <labels>
+        <fullName>Esign_Submit_Report</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Esign-Submit-Report</shortDescription>
+        <value>I approve and submit the report.</value>
+    </labels>
+    <labels>
+        <fullName>Extension_Request_is_ready_for_Approval</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Extension Request is ready for Approval</shortDescription>
+        <value>Extension Request is ready for Approval</value>
+    </labels>
+    <labels>
+        <fullName>External_Record_Type</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>External Record Type</shortDescription>
+        <value>External</value>
+    </labels>
+    <labels>
+        <fullName>Final_Approver_1_Approve</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Final Approver 1 Approve</shortDescription>
+        <value>Final Approver 1 Approve</value>
+    </labels>
+    <labels>
+        <fullName>Final_Approver_1_Reject</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Final Approver 1 Reject</shortDescription>
+        <value>Final Approver 1 Reject</value>
+    </labels>
+    <labels>
+        <fullName>Final_Approver_2_Approve</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Final Approver 2 Approve</shortDescription>
+        <value>Final Approver 2 Approve</value>
+    </labels>
+    <labels>
+        <fullName>Final_Approver_2_Reject</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Final Approver 2 Reject</shortDescription>
+        <value>Final Approver 2 Reject</value>
+    </labels>
+    <labels>
+        <fullName>Final_Approver_3_Approve</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Final Approver 3 Approve</shortDescription>
+        <value>Final Approver 3 Approve</value>
+    </labels>
+    <labels>
+        <fullName>Final_Approver_3_Reject</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Final Approver 3 Reject</shortDescription>
+        <value>Final Approver 3 Reject</value>
+    </labels>
+    <labels>
+        <fullName>Final_Approver_4_Approve</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Final Approver 4 Approve</shortDescription>
+        <value>Final Approver 4 Approve</value>
+    </labels>
+    <labels>
+        <fullName>Final_Approver_4_Reject</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Final Approver 4 Reject</shortDescription>
+        <value>Final Approver 4 Reject</value>
+    </labels>
+    <labels>
+        <fullName>Final_Approver_5_Approve</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Final Approver 5 Approve</shortDescription>
+        <value>Final Approver 5 Approve</value>
+    </labels>
+    <labels>
+        <fullName>Final_Approver_5_Reject</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Final Approver 5 Reject</shortDescription>
+        <value>Final Approver 5 Reject</value>
+    </labels>
+    <labels>
+        <fullName>Final_Approver_6_Approve</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Final Approver 6 Approve</shortDescription>
+        <value>Final Approver 6 Approve</value>
+    </labels>
+    <labels>
+        <fullName>Final_Approver_6_Reject</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Final Approver 6 Reject</shortDescription>
+        <value>Final Approver 6 Reject</value>
+    </labels>
+    <labels>
+        <fullName>Final_QA_Approver_Reject</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Final (QA) Approver Reject</shortDescription>
+        <value>Final (QA) Approver Reject</value>
+    </labels>
+    <labels>
+        <fullName>IMPACTED_LOT_MANDATORY_FIELDS_EVAL_COMPLETE</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>IMPACTED_LOT_MANDATORY_FIELDS_EVAL_COMPLETE</shortDescription>
+        <value>To perform Evaluation Complete, the following fields are mandatory on all Impacted Lots:
+- Quantity Inspected/Tested
+- Quantity Failed
+- Dispositions</value>
+    </labels>
+    <labels>
+        <fullName>INSTRUMENT_SERIAL_NUMBER</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>INSTRUMENT SERIAL NUMBER</shortDescription>
+        <value>INSTRUMENT SERIAL NUMBER</value>
+    </labels>
+    <labels>
+        <fullName>INTERNALAUDIT_PENDING_ERROR_MESSAGE</fullName>
+        <categories>Internal Audit</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>INTERNALAUDIT_PENDING_ERROR_MESSAGE</shortDescription>
+        <value>Pending findings exist, please close findings.</value>
+    </labels>
+    <labels>
+        <fullName>INVESTIGATION_DELETE_ERROR_MESSAGE</fullName>
+        <categories>Investigation</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>INVESTIGATION_DELETE_ERROR_MESSAGE</shortDescription>
+        <value>You cannot delete an investigation.</value>
+    </labels>
+    <labels>
+        <fullName>INVEST_APPROVE_ROLE</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>INVEST_APPROVE_ROLE</shortDescription>
+        <value>Complaint Investigation Editor</value>
+    </labels>
+    <labels>
+        <fullName>ITEM_DESCRIPTION</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ITEM_DESCRIPTION</shortDescription>
+        <value>Item Description</value>
+    </labels>
+    <labels>
+        <fullName>ITEM_NUMBER</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ITEM_NUMBER</shortDescription>
+        <value>Item Number</value>
+    </labels>
+    <labels>
+        <fullName>I_Approve_this_Impact_Assessment_is_Complete</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>I Approve this Impact Assessment is Complete</shortDescription>
+        <value>I Approve this Impact Assessment is Complete</value>
+    </labels>
+    <labels>
+        <fullName>I_Reject_that_this_action_item_is_complete</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>I Reject that this action item is complete.</shortDescription>
+        <value>I Reject that this action item is complete.</value>
+    </labels>
+    <labels>
+        <fullName>I_am_cancelling_this_Change_Control</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>I am cancelling this Change Control</shortDescription>
+        <value>I am cancelling this Change Control.</value>
+    </labels>
+    <labels>
+        <fullName>I_am_cancelling_this_Impact_Assessment</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>I am cancelling this Impact Assessment</shortDescription>
+        <value>I am cancelling this Impact Assessment</value>
+    </labels>
+    <labels>
+        <fullName>I_am_reopening_this_Impact_Assessment</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>I am reopening this Impact Assessment</shortDescription>
+        <value>I am reopening this Impact Assessment</value>
+    </labels>
+    <labels>
+        <fullName>I_am_returning_the_record_to_Implementation_in_Progress_status</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>I am returning the record to Implementation in Progress Status</shortDescription>
+        <value>I am returning the record to Implementation in Progress Status</value>
+    </labels>
+    <labels>
+        <fullName>I_am_returning_the_record_to_Open</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>I am returning the record to Open.</shortDescription>
+        <value>I am returning the record to Open.</value>
+    </labels>
+    <labels>
+        <fullName>I_approve_this_action_item_is_complete</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>I approve this action item is complete</shortDescription>
+        <value>I approve this action item is complete</value>
+    </labels>
+    <labels>
+        <fullName>I_approve_this_change_control_for_implementation</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>I approve this change control for implementation</shortDescription>
+        <value>I approve this change control for implementation</value>
+    </labels>
+    <labels>
+        <fullName>I_approve_this_change_control_for_release</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>I approve this change control for release</shortDescription>
+        <value>I approve this change control for release</value>
+    </labels>
+    <labels>
+        <fullName>I_approve_this_change_control_is_complete</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>I approve this change control is complete</shortDescription>
+        <value>I approve this change control is complete</value>
+    </labels>
+    <labels>
+        <fullName>I_approve_this_change_control_is_complete_successful</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>I approve this change control is complete - successful</shortDescription>
+        <value>I approve this change control is complete - successful</value>
+    </labels>
+    <labels>
+        <fullName>I_approve_this_change_control_is_complete_unsuccessful</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>I approve this change control is complete - unsuccessful</shortDescription>
+        <value>I approve this change control is complete - unsuccessful</value>
+    </labels>
+    <labels>
+        <fullName>I_reject_this_change_control_for_implementation</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>I reject this change control for implementation</shortDescription>
+        <value>I reject this change control for implementation</value>
+    </labels>
+    <labels>
+        <fullName>I_reject_this_change_control_for_release</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>I reject this change control for release</shortDescription>
+        <value>I reject this change control for release</value>
+    </labels>
+    <labels>
+        <fullName>I_reject_this_change_control_is_complete</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>I reject this change control is complete</shortDescription>
+        <value>I reject this change control is complete</value>
+    </labels>
+    <labels>
+        <fullName>Implementation_Complete</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Implementation Complete</shortDescription>
+        <value>Implementation Complete</value>
+    </labels>
+    <labels>
+        <fullName>Implementation_in_Progress</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Implementation in Progress</shortDescription>
+        <value>Implementation in Progress</value>
+    </labels>
+    <labels>
+        <fullName>Internal_Record_Type</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Internal Record Type</shortDescription>
+        <value>Internal</value>
+    </labels>
+    <labels>
+        <fullName>J_approuve_la_demande_d_extension</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>I approve this extension request</shortDescription>
+        <value>I approve this extension request</value>
+    </labels>
+    <labels>
+        <fullName>J_approuve_le_change_control</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>I approve this change control</shortDescription>
+        <value>I approve this change control</value>
+    </labels>
+    <labels>
+        <fullName>LABEL_EMAIL_SUBJECT_ACTION_PERFORMED</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LABEL_EMAIL_SUBJECT_ACTION_PERFORMED</shortDescription>
+        <value>{Object} {Name} needs your attention</value>
+    </labels>
+    <labels>
+        <fullName>LABEL_EMAIL_SUBJECT_APPROVAL</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LABEL_EMAIL_SUBJECT_APPROVAL</shortDescription>
+        <value>{Object} {Name} needs your approval</value>
+    </labels>
+    <labels>
+        <fullName>LABEL_EMAIL_SUBJECT_DUE_LATE</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LABEL_EMAIL_SUBJECT_DUE_LATE</shortDescription>
+        <value>{Object} {Name} is late</value>
+    </labels>
+    <labels>
+        <fullName>LABEL_EMAIL_SUBJECT_DUE_SOON</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LABEL_EMAIL_SUBJECT_DUE_SOON</shortDescription>
+        <value>{Object} {Name} is due soon</value>
+    </labels>
+    <labels>
+        <fullName>LABEL_EMAIL_TPL_ACTION_PERF</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LABEL_EMAIL_TPL_ACTION_PERF</shortDescription>
+        <value>Hi,
+
+You&apos;re the owner of {Object}  {Name} - {Title}. 
+
+Action &quot;{action}&quot; has been performed by {Action_Performed_By}.
+
+Please click on the below link to access record and take necessary action.
+
+{Link}</value>
+    </labels>
+    <labels>
+        <fullName>LABEL_EMAIL_TPL_APPROVAL</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LABEL_EMAIL_TPL_APPROVAL</shortDescription>
+        <value>Hi,
+
+You have been assigned as Approver for {Object}  {Name} - {Title}.
+
+Please click on the below link to access record and take necessary action.
+
+{Link}</value>
+    </labels>
+    <labels>
+        <fullName>LABEL_EMAIL_TPL_LATE</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LABEL_EMAIL_TPL_LATE</shortDescription>
+        <value>Hi,
+
+You’re the owner of {Object}  {Name} - {Title}. 
+
+Record is due on : {DueDate}
+
+Please click on the below link to access record and take necessary action.
+
+{Link}</value>
+    </labels>
+    <labels>
+        <fullName>LABEL_EMAIL_TPL_OVERDUE</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LABEL_EMAIL_TPL_OVERDUE</shortDescription>
+        <value>Hi,
+
+You’re the owner of {Object}  {Name} - {Title}. 
+
+Record was due on : {DueDate}
+
+Please click on the below link to access record and take necessary action.
+
+{Link}</value>
+    </labels>
+    <labels>
+        <fullName>LOADING</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LOADING</shortDescription>
+        <value>Loading</value>
+    </labels>
+    <labels>
+        <fullName>Modify_Change_Control_Change_Coordinator</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Modify Change Control (Change Coordinator)</shortDescription>
+        <value>Modify Change Control (Change Coordinator)</value>
+    </labels>
+    <labels>
+        <fullName>Modify_Change_Control_Change_Owner</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Modify Change Control (Change Owner)</shortDescription>
+        <value>Modify Change Control (Change Owner)</value>
+    </labels>
+    <labels>
+        <fullName>NOT_POSSIBLE_CREATE_IMP_LOT</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NOT_POSSIBLE_CREATE_IMP_LOT</shortDescription>
+        <value>It’s not allowed to create new Impacted Lot/SN at this status of the Quality Event Record.</value>
+    </labels>
+    <labels>
+        <fullName>NO_DATA_FOR_FILTER</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NO_DATA_FOR_FILTER</shortDescription>
+        <value>No data for this filter. Please perform a search or modify the filters</value>
+    </labels>
+    <labels>
+        <fullName>New_Information</fullName>
+        <categories>RFC</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>New Information</shortDescription>
+        <value>New Information</value>
+    </labels>
+    <labels>
+        <fullName>No_Approvals_Required</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>No Approvals Required</shortDescription>
+        <value>No Approvals Required</value>
+    </labels>
+    <labels>
+        <fullName>No_CRB_Approvals_Required</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>No CRB Approvals Required</shortDescription>
+        <value>No CRB Approvals Required</value>
+    </labels>
+    <labels>
+        <fullName>No_Optional_Approvers_Required_Only_Quality_Approver</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>No Optional Approvers Required- Only Quality Approver</shortDescription>
+        <value>No Optional Approvers Required- Only Quality Approver</value>
+    </labels>
+    <labels>
+        <fullName>No_Optional_Release_Approvals_Required</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>No Optional Release Approvals Required</shortDescription>
+        <value>No Optional Release Approvals Required</value>
+    </labels>
+    <labels>
+        <fullName>Not</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NOT_POSSIBLE_CREATE_RFA</shortDescription>
+        <value>It’s not allowed to create new RFA at this status of the Investigation/Evaluation.</value>
+    </labels>
+    <labels>
+        <fullName>Open</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Open</shortDescription>
+        <value>Open</value>
+    </labels>
+    <labels>
+        <fullName>Open_Status</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Open</shortDescription>
+        <value>Open</value>
+    </labels>
+    <labels>
+        <fullName>POUCH_LOT</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>POUCH LOT</shortDescription>
+        <value>POUCH LOT</value>
+    </labels>
+    <labels>
+        <fullName>Pending_Approval_Optional</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Pending Approval (Optional)</shortDescription>
+        <value>Pending Approval (Optional)</value>
+    </labels>
+    <labels>
+        <fullName>Pending_Approval_Quality</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Pending Approval (Quality)</shortDescription>
+        <value>Pending Approval (Quality)</value>
+    </labels>
+    <labels>
+        <fullName>Pending_CRB_Team_Review</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Pending CRB Team Review</shortDescription>
+        <value>Pending CRB Team Review</value>
+    </labels>
+    <labels>
+        <fullName>Pending_Final_Approval_Closure_Optional</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Pending Final Approval &amp; Closure (Optional)</shortDescription>
+        <value>Pending Final Approval &amp; Closure (Optional)</value>
+    </labels>
+    <labels>
+        <fullName>Pending_Final_Approval_Closure_Quality</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Pending Final Approval &amp; Closure (Quality)</shortDescription>
+        <value>Pending Final Approval &amp; Closure (Quality)</value>
+    </labels>
+    <labels>
+        <fullName>Pending_Quality_Review</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Pending Quality Review</shortDescription>
+        <value>Pending Quality Review</value>
+    </labels>
+    <labels>
+        <fullName>Pending_Release_Approval_Optional</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Pending Release Approval (Optional)</shortDescription>
+        <value>Pending Release Approval (Optional)</value>
+    </labels>
+    <labels>
+        <fullName>Pending_Release_Approval_Quality</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Pending Release Approval (Quality)</shortDescription>
+        <value>Pending Release Approval (Quality)</value>
+    </labels>
+    <labels>
+        <fullName>QUALITY_EVENT_ONLY_ONE_PARENT_AND_MANDATORY</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>QUALITY_EVENT_ONLY_ONE_PARENT_AND_MANDATORY</shortDescription>
+        <value>Sorry but one and only one value is mandatory between:
+
+- CAPA
+- CAPA Action
+- Cause Investigation
+- Correction
+- QMS Task
+- Quality Event
+-Audit Finding
+
+
+Please have one and only one of these values.</value>
+    </labels>
+    <labels>
+        <fullName>Quality_Approval</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Quality Approval</shortDescription>
+        <value>Quality Approval</value>
+    </labels>
+    <labels>
+        <fullName>REPAIR_ERROR_MESSAGE</fullName>
+        <categories>Repair</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>REPAIR_ERROR_MESSAGE</shortDescription>
+        <value>You cannot delete a Repair.</value>
+    </labels>
+    <labels>
+        <fullName>Reject</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reject</shortDescription>
+        <value>Reject</value>
+    </labels>
+    <labels>
+        <fullName>Reject_Action_Item</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reject Action Item</shortDescription>
+        <value>Reject</value>
+    </labels>
+    <labels>
+        <fullName>Reject_Release_QA</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reject Release (QA)</shortDescription>
+        <value>Reject Release (QA)</value>
+    </labels>
+    <labels>
+        <fullName>Release_Approver_1_Approves</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Release Approver 1 Approves</shortDescription>
+        <value>Release Approver 1 Approves</value>
+    </labels>
+    <labels>
+        <fullName>Release_Approver_1_Reject</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Release Approver 1 Reject</shortDescription>
+        <value>Release Approver 1 Reject</value>
+    </labels>
+    <labels>
+        <fullName>Release_Approver_2_Approves</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Release Approver 2 Approves</shortDescription>
+        <value>Release Approver 2 Approves</value>
+    </labels>
+    <labels>
+        <fullName>Release_Approver_2_Reject</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Release Approver 2 Reject</shortDescription>
+        <value>Release Approver 2 Reject</value>
+    </labels>
+    <labels>
+        <fullName>Release_Approver_3_Approves</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Release Approver 3 Approves</shortDescription>
+        <value>Release Approver 3 Approves</value>
+    </labels>
+    <labels>
+        <fullName>Release_Approver_3_Reject</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Release Approver 3 Reject</shortDescription>
+        <value>Release Approver 3 Reject</value>
+    </labels>
+    <labels>
+        <fullName>Release_Approver_4_Approves</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Release Approver 4 Approves</shortDescription>
+        <value>Release Approver 4 Approves</value>
+    </labels>
+    <labels>
+        <fullName>Release_Approver_4_Reject</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Release Approver 4 Reject</shortDescription>
+        <value>Release Approver 4 Reject</value>
+    </labels>
+    <labels>
+        <fullName>Release_Approver_5_Approves</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Release Approver 5 Approves</shortDescription>
+        <value>Release Approver 5 Approves</value>
+    </labels>
+    <labels>
+        <fullName>Release_Approver_5_Reject</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Release Approver 5 Reject</shortDescription>
+        <value>Release Approver 5 Reject</value>
+    </labels>
+    <labels>
+        <fullName>Release_Approver_6_Approves</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Release Approver 6 Approves</shortDescription>
+        <value>Release Approver 6 Approves</value>
+    </labels>
+    <labels>
+        <fullName>Release_Approver_6_rejec</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Release Approver 6 rejec</shortDescription>
+        <value>Release Approver 6 Reject</value>
+    </labels>
+    <labels>
+        <fullName>Reopen</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reopen</shortDescription>
+        <value>Reopen</value>
+    </labels>
+    <labels>
+        <fullName>Reopen_Change_Control</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reopen Change Control</shortDescription>
+        <value>Reopen Change Control</value>
+    </labels>
+    <labels>
+        <fullName>Return_to_Implementation_in_Progress</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Return to Implementation in Progress</shortDescription>
+        <value>Return to Implementation in Progress</value>
+    </labels>
+    <labels>
+        <fullName>Return_to_Open</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Return to Open</shortDescription>
+        <value>Return to Open</value>
+    </labels>
+    <labels>
+        <fullName>SAVE</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SAVE</shortDescription>
+        <value>Save</value>
+    </labels>
+    <labels>
+        <fullName>SAVING_DATA_PLEASE_WAIT</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SAVING_DATA_PLEASE_WAIT</shortDescription>
+        <value>Saving data, please wait...</value>
+    </labels>
+    <labels>
+        <fullName>SCREEN_FLOW_AUTO_CI_CREATE_CREATE_TEXT</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Create CI Screen text</shortDescription>
+        <value>If you click the below button, a Cause Investigation will be created for you and automatically linked to this record.</value>
+    </labels>
+    <labels>
+        <fullName>SCREEN_FLOW_AUTO_CI_CREATE_EXIST_1</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Already existing CI text in Flow</shortDescription>
+        <value>There is already a Cause Investigation Linked to this record, hence auto-creation is disabled</value>
+    </labels>
+    <labels>
+        <fullName>SCREEN_FLOW_AUTO_CI_CREATE_EXIST_2</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Link to CI text in Flow</shortDescription>
+        <value>Click to Open linked Cause Investigation</value>
+    </labels>
+    <labels>
+        <fullName>SCREEN_FLOW_AUTO_CI_CREATE_LOCKED</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Locked Status text</shortDescription>
+        <value>The current status doesn&apos;t allow you to automaticaly create and link a Cause Investigation to this record</value>
+    </labels>
+    <labels>
+        <fullName>SCREEN_FLOW_AUTO_CI_CREATE_TITLE</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Automatic Cause Investigation Creation</shortDescription>
+        <value>Automatic Cause Investigation Creation</value>
+    </labels>
+    <labels>
+        <fullName>SEARCH_BY</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SEARCH_BY</shortDescription>
+        <value>Search by</value>
+    </labels>
+    <labels>
+        <fullName>SEARCH_IN_SAP</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SEARCH_IN_SAP</shortDescription>
+        <value>Search in SAP</value>
+    </labels>
+    <labels>
+        <fullName>SERIAL_NUMBER</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SERIAL_NUMBER</shortDescription>
+        <value>Serial Number</value>
+    </labels>
+    <labels>
+        <fullName>SUPPLIER_NAME</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SUPPLIER_NAME</shortDescription>
+        <value>Supplier Name</value>
+    </labels>
+    <labels>
+        <fullName>Scope_Distributor</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Scope Distributor</shortDescription>
+        <value>Distributor</value>
+    </labels>
+    <labels>
+        <fullName>Scope_Distributor_Value</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Scope Distributor Value</shortDescription>
+        <value>Distributor</value>
+    </labels>
+    <labels>
+        <fullName>Send_back_to_Initiation</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Send Back to Initiation</shortDescription>
+        <value>Send Back to Initiation</value>
+    </labels>
+    <labels>
+        <fullName>Send_for_Approval</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Send for Approval</shortDescription>
+        <value>Send for Approval</value>
+    </labels>
+    <labels>
+        <fullName>Status_Audit_Schedule_Executed</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Status_Audit_Schedule_Executed</shortDescription>
+        <value>Audit Schedule Executed</value>
+    </labels>
+    <labels>
+        <fullName>Status_Audit_Schedule_Implementation</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Status_Audit_Schedule_Implementation</shortDescription>
+        <value>Audit Schedule Implementation</value>
+    </labels>
+    <labels>
+        <fullName>Status_Closed_Cancelled</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Status Closed - Canceled</shortDescription>
+        <value>Closed - Canceled</value>
+    </labels>
+    <labels>
+        <fullName>Status_Closed_Done</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Status Closed - Done</shortDescription>
+        <value>Closed - Done</value>
+    </labels>
+    <labels>
+        <fullName>Status_Pending_Action_Plan_Definition</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Status Pending Action Plan Definition</shortDescription>
+        <value>Pending Action Plan Definition</value>
+    </labels>
+    <labels>
+        <fullName>Status_Report_Approved</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Status Report_Approved_Pending_Action</shortDescription>
+        <value>Report Approved - Pending Action Plan Definition</value>
+    </labels>
+    <labels>
+        <fullName>Submit_for_Approval</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Submit for Approval</shortDescription>
+        <value>Submit for Approval</value>
+    </labels>
+    <labels>
+        <fullName>Submit_for_Release_Approval</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Submit for Release Approval</shortDescription>
+        <value>Submit for Release Approval</value>
+    </labels>
+    <labels>
+        <fullName>Submit_for_Review</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Submit for Review</shortDescription>
+        <value>Submit for Review</value>
+    </labels>
+    <labels>
+        <fullName>TECHNICAL_ERROR_DETAIL</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>TECHNICAL_ERROR_DETAIL</shortDescription>
+        <value>Technical error details</value>
+    </labels>
+    <labels>
+        <fullName>TYPE_HERE</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>TYPE_HERE</shortDescription>
+        <value>type here...</value>
+    </labels>
+    <labels>
+        <fullName>The_Change_Control_needs_to_be_reopened</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>The Change Control needs to be reopened</shortDescription>
+        <value>The Change Control needs to be reopened</value>
+    </labels>
+    <labels>
+        <fullName>This_Action_Item_is_complete</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>This Action Item is complete</shortDescription>
+        <value>This Action Item is complete</value>
+    </labels>
+    <labels>
+        <fullName>This_Action_Item_should_be_open</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>This Action Item should be open</shortDescription>
+        <value>This Action Item should be open</value>
+    </labels>
+    <labels>
+        <fullName>This_Change_Control_Implementation_is_complete</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>This Change Control Implementation is complete</shortDescription>
+        <value>This Change Control Implementation is complete</value>
+    </labels>
+    <labels>
+        <fullName>This_Change_Control_is_ready_for_reviewed</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>This Change Control is ready for reviewed</shortDescription>
+        <value>This Change Control is ready for reviewed</value>
+    </labels>
+    <labels>
+        <fullName>This_Change_Control_needs_to_be_modified</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>This Change Control needs to be modified</shortDescription>
+        <value>This Change Control needs to be modified</value>
+    </labels>
+    <labels>
+        <fullName>This_Extension_Request_is_cancelled</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>This Extension Request is cancelled</shortDescription>
+        <value>This Extension Request is cancelled</value>
+    </labels>
+    <labels>
+        <fullName>This_object_is_dedicated_to_Biomolecular_Product</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>This object is dedicated to Biomolecular Product.</shortDescription>
+        <value>These objects are dedicated to BIOFIRE products</value>
+    </labels>
+    <labels>
+        <fullName>Triggered_Sharing_is_Successful</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Sharing is Successful</shortDescription>
+        <value>Sharing is Successful</value>
+    </labels>
+    <labels>
+        <fullName>Triggered_Sharing_was_Not_Successful</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Sharing is Not Successful</shortDescription>
+        <value>Sharing is Not Successful</value>
+    </labels>
+    <labels>
+        <fullName>Updated_Information</fullName>
+        <categories>RFC</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Updated Information</shortDescription>
+        <value>Updated Information</value>
+    </labels>
+    <labels>
+        <fullName>WFPhase_AfterReleaseOptional</fullName>
+        <categories>WF Phases</categories>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>Used to translate Phase</shortDescription>
+        <value>After Release (Optional)</value>
+    </labels>
+    <labels>
+        <fullName>WFPhase_Approval</fullName>
+        <categories>WF Phases</categories>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>Used to translate phase Approval</shortDescription>
+        <value>Approval</value>
+    </labels>
+    <labels>
+        <fullName>WFPhase_ApprovalOptional</fullName>
+        <categories>WF Phases</categories>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>Used to translate Phase Approval (Optionnal)</shortDescription>
+        <value>Approval (Optional)</value>
+    </labels>
+    <labels>
+        <fullName>WFPhase_CRBApproval</fullName>
+        <categories>WF Phases</categories>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>Used to translate Phase CRB Approval</shortDescription>
+        <value>CRB Approval</value>
+    </labels>
+    <labels>
+        <fullName>WFPhase_Closure</fullName>
+        <categories>WF Phases</categories>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>Used to translate Phase Closure</shortDescription>
+        <value>Closure</value>
+    </labels>
+    <labels>
+        <fullName>WFPhase_FinalApproval</fullName>
+        <categories>WF Phases</categories>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>Used to translate Phase Final Approval</shortDescription>
+        <value>Final Approval</value>
+    </labels>
+    <labels>
+        <fullName>WFPhase_Implementation</fullName>
+        <categories>WF Phases</categories>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>Used to translate Phase Implementation</shortDescription>
+        <value>Implementation</value>
+    </labels>
+    <labels>
+        <fullName>WFPhase_Initiation</fullName>
+        <categories>WF Phases</categories>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>Used to translate Phase Initiation</shortDescription>
+        <value>Initiation</value>
+    </labels>
+    <labels>
+        <fullName>WFPhase_Open</fullName>
+        <categories>WF Phases</categories>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>Used to translate Phase Open</shortDescription>
+        <value>Open</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Action_Plan_Complete</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Action_Plan_Complete</shortDescription>
+        <value>Action Plan Complete</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Additional_Approver1_name_forFAB</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Additional_Approver1_name_forFAB</shortDescription>
+        <value>Additional Approver&apos;s 1</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Additional_Approver1_name_forFAN</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Additional_Approver1_name_forFAN</shortDescription>
+        <value>Additional Approver&apos;s 1</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Additional_Approver2_name_forFAB</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Additional_Approver2_name_forFAB</shortDescription>
+        <value>Additional Approver&apos;s 2</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Additional_Approver2_name_forFAN</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Additional_Approver2_name_forFAN</shortDescription>
+        <value>Additional Approver&apos;s 2</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Additional_Approver3_name_forFAB</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Additional_Approver3_name_forFAB</shortDescription>
+        <value>Additional Approver&apos;s 3</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Additional_Approver3_name_forFAN</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Additional_Approver3_name_forFAN</shortDescription>
+        <value>Additional Approver&apos;s 3</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Additional_Approver4_name_forFAB</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Additional_Approver4_name_forFAB</shortDescription>
+        <value>Additional Approver&apos;s 4</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Additional_Approver4_name_forFAN</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Additional_Approver4_name_forFAN</shortDescription>
+        <value>Additional Approver&apos;s 4</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Additionnal_Approvals_Completed</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Additionnal_Approvals_Completed</shortDescription>
+        <value>Additionnal Approvals Completed</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Approval1_forSchedule</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Approval1_forSchedule</shortDescription>
+        <value>Approval 1</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Approval2_forAudit</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Approval2_forAudit</shortDescription>
+        <value>Approval 2</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Approval2_forFindings</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Approval2_forFindings</shortDescription>
+        <value>Approval 2</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Approval2_forSchedule</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Approval2_forSchedule</shortDescription>
+        <value>Approval 2</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Approval3_forAudit</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Approval3_forAudit</shortDescription>
+        <value>Approval 3</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Approval3_forFindings</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Approval3_forFindings</shortDescription>
+        <value>Approval 3</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Approval3_forSchedule</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Approval3_forSchedule</shortDescription>
+        <value>Approval 3</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Approval4_forAudit</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Approval4_forAudit</shortDescription>
+        <value>Approval 4</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Approval4_forSchedule</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Approval4_forSchedule</shortDescription>
+        <value>Approval 4</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Approval5_forSchedule</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Approval5_forSchedule</shortDescription>
+        <value>Approval 5</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Approval_1</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Approval_1</shortDescription>
+        <value>Approval 1</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Approval_2</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Approval_2</shortDescription>
+        <value>Approval 2</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Approval_3</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Approval_3</shortDescription>
+        <value>Approval 3</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Approval_4</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Approval_4</shortDescription>
+        <value>Approval 4</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Approval_5</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Approval_5</shortDescription>
+        <value>Approval 5</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Approval_Complete_forAudit</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Approval_Complete_forAudit</shortDescription>
+        <value>Approval Completed</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Approval_Complete_forFindings</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Approval_Complete_forFindings</shortDescription>
+        <value>Approval Completed</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Approval_Complete_forSchedule</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Approval_Complete_forSchedule</shortDescription>
+        <value>Approval Completed</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Approve_1</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF-Action-Approve 1</shortDescription>
+        <value>Approve 1</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Approve_2</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF-Action-Approve 2</shortDescription>
+        <value>Approve 2</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Approve_3</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF-Action-Approve 3</shortDescription>
+        <value>Approve 3</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Approve_4</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF-Action-Approve 4</shortDescription>
+        <value>Approve 4</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Approve_Reporting_Decision</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF-Action-Approve Reporting Decision</shortDescription>
+        <value>Approve Reporting Decision</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Assessment_Complete</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Assessment_Complete</shortDescription>
+        <value>Assessment Complete</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Audit_Definition_Complete</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Audit_Definition_Complete</shortDescription>
+        <value>Send for Approval</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Audit_Executed_forAudit</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Audit_Executed_forAudit</shortDescription>
+        <value>Audit Executed</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Audit_Execution_forSchedule</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Audit_Execution_forSchedule</shortDescription>
+        <value>Audit Schedule Execution</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_AutoClose_forFindings</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_AutoClose_forFindings</shortDescription>
+        <value>Automatic Closure</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_AutoRevise_forSchedule</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_AutoRevise_forSchedule</shortDescription>
+        <value>Automatic Revision</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Auto_Close</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF-Action-Auto Close</shortDescription>
+        <value>Auto Close</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Automatic_closure</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Automatic_closure</shortDescription>
+        <value>Automatic closure</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Cancel</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Cancel</shortDescription>
+        <value>Cancel</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Cancel_Assessment</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF-Action-Cancel Assessment</shortDescription>
+        <value>Cancel Assessment</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Cancel_Investigation</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF-Action-Cancel Investigation</shortDescription>
+        <value>Cancel Investigation</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Cancel_by_System</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Cancel_by_System</shortDescription>
+        <value>Cancel by System</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Cancel_forAuditModule</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Cancel_forAuditModule</shortDescription>
+        <value>Cancel</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Cancel_forFABModule</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Cancel_forFABModule</shortDescription>
+        <value>Cancel</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Close</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Close</shortDescription>
+        <value>Close</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Close_NoFinding_forAudit</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Close_NoFinding_forAudit</shortDescription>
+        <value>Audit Closed (No finding)</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Close_Report</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF-Action-Close Report</shortDescription>
+        <value>Close Report</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Close_forAudit</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Close_forAudit</shortDescription>
+        <value>Audit Closed (All findings closed)</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Close_forFAB</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Close_forFAB</shortDescription>
+        <value>Close</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Close_forFAN</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Close_forFAN</shortDescription>
+        <value>Close</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Close_forFindings</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Close_forFindings</shortDescription>
+        <value>External Finding Closure</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Close_forSchedule</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Close_forSchedule</shortDescription>
+        <value>Close</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Complete_Expert_Investigation</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF-Action-Complete Expert Investigation</shortDescription>
+        <value>Complete Expert Investigation</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Complete_Investigation</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF-Action-Complete Investigation</shortDescription>
+        <value>Complete Investigation</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Effectiveness_Check_Approval</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Effectiveness_Check_Approval</shortDescription>
+        <value>Effectiveness Check Approval</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Effectiveness_Check_Complete</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Effectiveness_Check_Complete</shortDescription>
+        <value>Effectiveness Check Complete</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Evaluation_Complete</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Evaluation_Complete</shortDescription>
+        <value>Evaluation Complete</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_GCS_Management_Approval_forFAN</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_GCS_Management_Approval_forFAN</shortDescription>
+        <value>GCS Management Approval</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_GiCS_Management_Approval_forFAN</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_GiCS_Management_Approval_forFAN</shortDescription>
+        <value>GiCS Management Approval</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Global_Marketing_Approval_forFAN</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Global_Marketing_Approval_forFAN</shortDescription>
+        <value>Global Marketing Approval</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Global_Medical_Affairs_Approval_forFAN</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Global_Medical_Affairs_Approval_forFAN</shortDescription>
+        <value>Global Medical Affairs Approval</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Implementation_Complete</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Implementation_Complete</shortDescription>
+        <value>Implementation Complete</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Industry_Scientific_Affairs_Approval_forFAN</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Industry_Scientific_Affairs_Approval_forFAN</shortDescription>
+        <value>Industry Scientific Affairs Approval</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Initiation_Complete</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Initiation_Complete</shortDescription>
+        <value>Initiation Complete</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Investigation_Approve</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF-Action-Investigation Approve</shortDescription>
+        <value>Investigation Approve</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Investigation_Complete</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Investigation_Complete</shortDescription>
+        <value>Investigation Complete</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Lead_Approval1_forAudit</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Lead_Approval1_forAudit</shortDescription>
+        <value>Lead Auditor Approval 1</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Lead_Approval1_forFindings</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Lead_Approval1_forFindings</shortDescription>
+        <value>Lead Auditor Approval 1</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Lead_Auditor_Approval</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Lead_Auditor_Approval</shortDescription>
+        <value>Lead Auditor Approval</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Management_Manufacturing_site_Quality_Approval_forFAB</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Management_Manufacturing_site_Quality_Approval_forFAB</shortDescription>
+        <value>Management, Manufacturing site Quality Approval</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Management_Manufacturing_site_Quality_Approval_forFAN</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Management_Manufacturing_site_Quality_Approval_forFAN</shortDescription>
+        <value>Management, Manufacturing site Quality Approval</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_No_Additional_Approvals</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_No_Additional_Approvals</shortDescription>
+        <value>No Additional Approvals</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_No_Additional_Approver_required</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_No_Additional_Approver_required</shortDescription>
+        <value>No Additional Approver required</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_No_Additionnal_Approvals</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_No_Additionnal_Approvals</shortDescription>
+        <value>No Additionnal Approvals</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Notification_Approval_forAudit</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Notification_Approval_forAudit</shortDescription>
+        <value>Notification Approval</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Owner2_Approval_forFAN</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Owner2_Approval_forFAN</shortDescription>
+        <value>Owner2 Approval</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Owner3_Approval_forFAN</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Owner3_Approval_forFAN</shortDescription>
+        <value>Owner3 Approval</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Parent_Approval_forFinding</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Parent_Approval_forFinding</shortDescription>
+        <value>Parent Sent for Approval</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_QA_Approval</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_QA_Approval</shortDescription>
+        <value>QA Approval</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_QA_Industry_Approval_forFAB</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_QA_Industry_Approval_forFAB</shortDescription>
+        <value>QA Industry Approval</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_QA_Industry_Approval_forFAN</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_QA_Industry_Approval_forFAN</shortDescription>
+        <value>QA Industry Approval</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Ready_for_Approval</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Ready_for_Approval</shortDescription>
+        <value>Ready for Approval</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Reject</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF-Action-Reject</shortDescription>
+        <value>Reject</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Reject_1</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF-Action-Reject 1</shortDescription>
+        <value>Reject 1</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Reject_2</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF-Action-Reject 2</shortDescription>
+        <value>Reject 2</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Reject_3</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF-Action-Reject 3</shortDescription>
+        <value>Reject 3</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Reject_4</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF-Action-Reject 4</shortDescription>
+        <value>Reject 4</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Reject_Additional_Approver1_name_forFAB</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Reject_Additional_Approver1_name_forFAB</shortDescription>
+        <value>Reject (Additional Approver&apos;s 1  )</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Reject_Additional_Approver1_name_forFAN</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Reject_Additional_Approver1_name_forFAN</shortDescription>
+        <value>Reject (Additional Approver&apos;s 1  )</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Reject_Additional_Approver2_name_forFAB</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Reject_Additional_Approver2_name_forFAB</shortDescription>
+        <value>Reject (Additional Approver&apos;s 2  )</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Reject_Additional_Approver2_name_forFAN</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Reject_Additional_Approver2_name_forFAN</shortDescription>
+        <value>Reject (Additional Approver&apos;s 2  )</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Reject_Additional_Approver3_name_forFAB</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Reject_Additional_Approver3_name_forFAB</shortDescription>
+        <value>Reject (Additional Approver&apos;s 3  )</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Reject_Additional_Approver3_name_forFAN</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Reject_Additional_Approver3_name_forFAN</shortDescription>
+        <value>Reject (Additional Approver&apos;s 3  )</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Reject_Additional_Approver4_name_forFAB</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Reject_Additional_Approver4_name_forFAB</shortDescription>
+        <value>Reject (Additional Approver&apos;s 4 )</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Reject_Additional_Approver4_name_forFAN</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Reject_Additional_Approver4_name_forFAN</shortDescription>
+        <value>Reject (Additional Approver&apos;s 4  )</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Reject_Approver1_forAudit</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Reject_Approver1_forAudit</shortDescription>
+        <value>Reject (Approver1)</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Reject_Approver1_forFindings</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Reject_Approver1_forFindings</shortDescription>
+        <value>Reject (Approver1)</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Reject_Approver1_forSchedule</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Reject_Approver1_forSchedule</shortDescription>
+        <value>Reject (Approver1)</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Reject_Approver2_forAudit</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Reject_Approver2_forAudit</shortDescription>
+        <value>Reject (Approver2)</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Reject_Approver2_forFindings</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Reject_Approver2_forFindings</shortDescription>
+        <value>Reject (Approver2)</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Reject_Approver2_forSchedule</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Reject_Approver2_forSchedule</shortDescription>
+        <value>Reject (Approver2)</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Reject_Approver3_forAudit</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Reject_Approver3_forAudit</shortDescription>
+        <value>Reject (Approver3)</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Reject_Approver3_forFindings</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Reject_Approver3_forFindings</shortDescription>
+        <value>Reject (Approver3)</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Reject_Approver3_forSchedule</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Reject_Approver3_forSchedule</shortDescription>
+        <value>Reject (Approver3)</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Reject_Approver4_forAudit</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Reject_Approver4_forAudit</shortDescription>
+        <value>Reject (Approver4)</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Reject_Approver4_forSchedule</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Reject_Approver4_forSchedule</shortDescription>
+        <value>Reject (Approver4)</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Reject_Approver5_forSchedule</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Reject_Approver5_forSchedule</shortDescription>
+        <value>Reject (Approver5)</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Reject_Approver_1</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Reject_Approver_1</shortDescription>
+        <value>Reject (Approver 1)</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Reject_Approver_2</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Reject_Approver_2</shortDescription>
+        <value>Reject (Approver 2)</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Reject_Approver_3</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Reject_Approver_3</shortDescription>
+        <value>Reject (Approver 3)</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Reject_Approver_4</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Reject_Approver_4</shortDescription>
+        <value>Reject (Approver 4)</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Reject_Approver_5</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Reject_Approver_5</shortDescription>
+        <value>Reject (Approver 5)</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Reject_Close_Approver_1</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Reject_Close_Approver_1</shortDescription>
+        <value>Reject &amp; Close (Approver 1)</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Reject_Close_Approver_2</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Reject_Close_Approver_2</shortDescription>
+        <value>Reject &amp; Close (Approver 2)</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Reject_Close_Approver_3</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Reject_Close_Approver_3</shortDescription>
+        <value>Reject &amp; Close (Approver 3)</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Reject_Close_Approver_4</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Reject_Close_Approver_4</shortDescription>
+        <value>Reject &amp; Close (Approver 4)</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Reject_Close_Approver_5</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Reject_Close_Approver_5</shortDescription>
+        <value>Reject &amp; Close (Approver 5)</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Reject_Close_QA_Approver</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Reject_Close_QA_Approver</shortDescription>
+        <value>Reject &amp; Close (QA Approver)</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Reject_Effectiveness_Check</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Reject_Effectiveness_Check</shortDescription>
+        <value>Reject Effectiveness Check</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Reject_GCS_Management_Approval_forFAN</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Reject_GCS_Management_Approval_forFAN</shortDescription>
+        <value>Reject (GCS Management Approval)</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Reject_GiCS_Management_Approval_forFAN</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Reject_GiCS_Management_Approval_forFAN</shortDescription>
+        <value>Reject (GiCS Management Approval)</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Reject_Global_Marketing_Approval_forFAN</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Reject_Global_Marketing_Approval_forFAN</shortDescription>
+        <value>Reject (Global Marketing Approval )</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Reject_Global_Medical_Affairs_Approval_forFAN</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Reject_Global_Medical_Affairs_Approval_forFAN</shortDescription>
+        <value>Reject ( Global Medical Affairs Approval)</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Reject_Lead_Auditor</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Reject_Lead_Auditor</shortDescription>
+        <value>Reject (Lead Auditor)</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Reject_Management_Manufacturing_site_Quality_Approval_forFAB</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Reject_Management_Manufacturing_site_Quality_Approval_forFAB</shortDescription>
+        <value>Reject (Management, Manufacturing site Quality Approval)</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Reject_Management_Manufacturing_site_Quality_Approval_forFAN</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Reject_Management_Manufacturing_site_Quality_Approval_forFAN</shortDescription>
+        <value>Reject (Management, Manufacturing site Quality Approval)</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Reject_Owner2_forFAN</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Reject_Owner2_forFAN</shortDescription>
+        <value>Reject (Owner2)</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Reject_Owner3_forFAN</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Reject_Owner3_forFAN</shortDescription>
+        <value>Reject (Owner3)</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Reject_QA_Approver</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Reject_QA_Approver</shortDescription>
+        <value>Reject (QA Approver)</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Reject_QA_Industry_Approval_forFAB</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Reject_QA_Industry_Approval_forFAB</shortDescription>
+        <value>Reject (QA Industry Approval)</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Reject_Reporting_Decision</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF-Action-Reject Reporting Decision</shortDescription>
+        <value>Reject Reporting Decision</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Reject_Revise_Approver_1</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Reject_Revise_Approver_1</shortDescription>
+        <value>Reject &amp; Revise (Approver 1)</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Reject_Revise_Approver_2</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Reject_Revise_Approver_2</shortDescription>
+        <value>Reject &amp; Revise (Approver 2)</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Reject_Revise_Approver_3</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Reject_Revise_Approver_3</shortDescription>
+        <value>Reject &amp; Revise (Approver 3)</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Reject_Revise_Approver_4</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Reject_Revise_Approver_4</shortDescription>
+        <value>Reject &amp; Revise (Approver 4)</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Reject_Revise_Approver_5</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Reject_Revise_Approver_5</shortDescription>
+        <value>Reject &amp; Revise (Approver 5)</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Reject_Revise_QA_Approver</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Reject_Revise_QA_Approver</shortDescription>
+        <value>Reject &amp; Revise (QA Approver)</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Reject_Revise_forAudit_Module</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Reject_Revise_forAudit Module</shortDescription>
+        <value>Reject and Revise</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Reject_VOT_Management_Approval1_forFAB</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Reject_VOT_Management_Approval1_forFAB</shortDescription>
+        <value>Reject (VOT Management Approval 1)</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Reject_VOT_Management_Approval2_forFAB</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Reject_VOT_Management_Approval2_forFAB</shortDescription>
+        <value>Reject (VOT Management Approval 2)</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Reject_VOT_Management_Approval_forFAN</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Reject_VOT_Management_Approval_forFAN</shortDescription>
+        <value>Reject (VOT Management Approval)</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Reopen</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Reopen</shortDescription>
+        <value>Reopen</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Reopen_and_Return_to_Assessment</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Reopen_and_Return_to_Assessment</shortDescription>
+        <value>Reopen and Return to Assessment</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Reopen_forAuditModule</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Reopen_forAuditModule</shortDescription>
+        <value>Reopen</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Reopen_forFABModule</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Reopen_forFABModule</shortDescription>
+        <value>Reopen</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Report_Created_forAudit</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Report_Created_forAudit</shortDescription>
+        <value>Report/Finding Created - Ready for Approval</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Report_Ready_Approval</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Report_Ready_Approval</shortDescription>
+        <value>Report/Finding Created - Ready for Approval</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Requested_Additional_Info</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF-Action-Requested Additional Info</shortDescription>
+        <value>Requested Additional Info</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Require_Expert_Investigation</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF-Action-Require Expert Investigation</shortDescription>
+        <value>Require Expert Investigation</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Return_to_Action_Plan_Definition</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Return_to_Action_Plan_Definition</shortDescription>
+        <value>Return to Action Plan Definition</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Return_to_Evaluation</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Return_to_Evaluation</shortDescription>
+        <value>Return to Evaluation</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Return_to_Implementation</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Return_to_Implementation</shortDescription>
+        <value>Return to Implementation</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Return_to_Investigation</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Return_to_Investigation</shortDescription>
+        <value>Return to Investigation</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Revise</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Revise</shortDescription>
+        <value>Revise</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Revise_Action_Plan</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Revise_Action_Plan</shortDescription>
+        <value>Revise Action Plan</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Revise_forAuditModule</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Revise_forAuditModule</shortDescription>
+        <value>Revise</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Rework</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF-Action-Rework</shortDescription>
+        <value>Rework</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Send_Actions_for_Implementation</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Send_Actions_for_Implementation</shortDescription>
+        <value>Send Action(s) for Implementation</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Send_Actions_to_Initiation</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Send_Actions_to_Initiation</shortDescription>
+        <value>Send Actions to Initiation</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Send_Approval_forFindings</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Send_Approval_forFindings</shortDescription>
+        <value>Send for Approval</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Send_Evaluation_forFindings</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Send_Evaluation_forFindings</shortDescription>
+        <value>Send to Evaluation</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Send_Response_forFindings</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Send_Response_forFindings</shortDescription>
+        <value>Send Back to Response</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Send_for_Approval</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Send_for_Approval</shortDescription>
+        <value>Send for Approval</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Send_to_Audit_Preparation</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Send_to_Audit_Preparation</shortDescription>
+        <value>Send back to Audit Preparation</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Send_to_Effectiveness_Check</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Send_to_Effectiveness_Check</shortDescription>
+        <value>Send to Effectiveness Check</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Send_to_Initiation_forAuditModule</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Send_to_Initiation_forAuditModule</shortDescription>
+        <value>Send Back to Initiation</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Send_to_Pending_Closure_forFAN</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Send_to_Pending_Closure_forFAN</shortDescription>
+        <value>FAN Send to pending Closure</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Send_to_Preparation_forAudit</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_Send_to_Preparation_forAudit</shortDescription>
+        <value>Send to Audit Preparation</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Start_Assessment</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF-Action-Start Assessment</shortDescription>
+        <value>Start Assessment</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Submission_Failed</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF-Action-Submission Failed</shortDescription>
+        <value>Submission Failed</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Submit_Report</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF-Action-Submit Report</shortDescription>
+        <value>Submit Report</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Submit_for_Approval</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF-Action-Submit for Approval</shortDescription>
+        <value>Submit for Approval</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_Submit_for_Review</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF-Action-Submit for Review</shortDescription>
+        <value>Submit for Review</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_System_Action</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF-Action-System Action</shortDescription>
+        <value>System Action</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_VOT_Management_Approval1_forFAB</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_VOT_Management_Approval1_forFAB</shortDescription>
+        <value>VOT Management Approval 1</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_VOT_Management_Approval2_forFAB</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_VOT_Management_Approval2_forFAB</shortDescription>
+        <value>VOT Management Approval 2</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_VOT_Management_Approval_forFAN</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_VOT_Management_Approval_forFAN</shortDescription>
+        <value>VOT Management Approval</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_approval_forFAN</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_approval_forFAN</shortDescription>
+        <value>Send for Approval</value>
+    </labels>
+    <labels>
+        <fullName>WF_Action_tobeUpdated_forSchedule</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Action_tobeUpdated_forSchedule</shortDescription>
+        <value>Audit Schedule to be Updated</value>
+    </labels>
+    <labels>
+        <fullName>WF_Audit_Completed_forAudit</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Audit_Completed_forAudit</shortDescription>
+        <value>Audit Completed</value>
+    </labels>
+    <labels>
+        <fullName>WF_Phase_Action_Implementation</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Phase_Action_Implementation</shortDescription>
+        <value>Action Implementation</value>
+    </labels>
+    <labels>
+        <fullName>WF_Phase_Action_Plan_Approval_forFinding</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Phase__Action_Plan_Approval_forFinding</shortDescription>
+        <value>Pending Finding Action Plan Approval</value>
+    </labels>
+    <labels>
+        <fullName>WF_Phase_Action_Plan_Approved_forAudit</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Phase_Action_Plan_Approved_forAudit</shortDescription>
+        <value>Audit Action Plan Approved</value>
+    </labels>
+    <labels>
+        <fullName>WF_Phase_Action_Plan_Def_forAudit</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Phase_Action_Plan_Def_forAudit</shortDescription>
+        <value>Report Approved - Pending Action Plan Definition</value>
+    </labels>
+    <labels>
+        <fullName>WF_Phase_Action_Plan_Implementation_forFinding</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Phase_Action_Plan_Implementation_forFinding</shortDescription>
+        <value>Finding Action Plan Approved - To be Implemented</value>
+    </labels>
+    <labels>
+        <fullName>WF_Phase_Approval</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Phase_Approval</shortDescription>
+        <value>Approval</value>
+    </labels>
+    <labels>
+        <fullName>WF_Phase_Approval_forFABModule</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Phase_Approval_forFABModule</shortDescription>
+        <value>Approval</value>
+    </labels>
+    <labels>
+        <fullName>WF_Phase_Assessment</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Phase_Assessment</shortDescription>
+        <value>Assessment</value>
+    </labels>
+    <labels>
+        <fullName>WF_Phase_Audit_Executed_forSchedule</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Phase_Audit_Executed_forSchedule</shortDescription>
+        <value>Audit Schedule Executed</value>
+    </labels>
+    <labels>
+        <fullName>WF_Phase_Audit_Execution_forAudit</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Phase_Audit_Execution_forAudit</shortDescription>
+        <value>Pending Audit Execution</value>
+    </labels>
+    <labels>
+        <fullName>WF_Phase_Audit_Implementation_forSchedule</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Phase_Audit_Implementation_forSchedule</shortDescription>
+        <value>Audit Schedule Implementation</value>
+    </labels>
+    <labels>
+        <fullName>WF_Phase_Audit_Preparation</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Phase_Audit_Preparation</shortDescription>
+        <value>Audit Preparation</value>
+    </labels>
+    <labels>
+        <fullName>WF_Phase_Audit_Report_Approval_forAudit</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Phase_Audit_Report_Approval_forAudit</shortDescription>
+        <value>Pending Audit Report Approval</value>
+    </labels>
+    <labels>
+        <fullName>WF_Phase_Audit_Schedule_Approval_forSchedule</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Phase_Audit_Schedule_Approval_forSchedule</shortDescription>
+        <value>Pending Audit Schedule Approval</value>
+    </labels>
+    <labels>
+        <fullName>WF_Phase_Audit_Schedule_Definition</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Phase_Audit_Schedule_Definition</shortDescription>
+        <value>Audit Schedule Definition</value>
+    </labels>
+    <labels>
+        <fullName>WF_Phase_Auditee_Response_forFinding</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Phase_Auditee_Response_forFinding</shortDescription>
+        <value>Auditee&apos;s Response</value>
+    </labels>
+    <labels>
+        <fullName>WF_Phase_Closed</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Phase_Closed</shortDescription>
+        <value>Closed</value>
+    </labels>
+    <labels>
+        <fullName>WF_Phase_Closed_AuditModule</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Phase_Closed_AuditModule</shortDescription>
+        <value>Closed</value>
+    </labels>
+    <labels>
+        <fullName>WF_Phase_Effectiveness_Check_Approval</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Phase_Effectiveness_Check_Approval</shortDescription>
+        <value>Effectiveness Check Approval</value>
+    </labels>
+    <labels>
+        <fullName>WF_Phase_Effectiveness_check</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Phase_Effectiveness_check</shortDescription>
+        <value>Effectiveness check</value>
+    </labels>
+    <labels>
+        <fullName>WF_Phase_Evaluation</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Phase_Evaluation</shortDescription>
+        <value>Evaluation</value>
+    </labels>
+    <labels>
+        <fullName>WF_Phase_FAB_Initiation_forFAB</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Phase_FAB_Initiation_forFAB</shortDescription>
+        <value>FAB Initiation</value>
+    </labels>
+    <labels>
+        <fullName>WF_Phase_FAN_Initiation_forFAN</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Phase_FAN_Initiation_forFAN</shortDescription>
+        <value>FAN Initiation</value>
+    </labels>
+    <labels>
+        <fullName>WF_Phase_Implementation</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Phase_Implementation</shortDescription>
+        <value>Implementation</value>
+    </labels>
+    <labels>
+        <fullName>WF_Phase_Initiated</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Phase_Initiated</shortDescription>
+        <value>Initiated</value>
+    </labels>
+    <labels>
+        <fullName>WF_Phase_Initiated_forAuditModule</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Phase_Initiated_forAuditModule</shortDescription>
+        <value>Initiated</value>
+    </labels>
+    <labels>
+        <fullName>WF_Phase_Initiation</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Phase_Initiation</shortDescription>
+        <value>Initiation</value>
+    </labels>
+    <labels>
+        <fullName>WF_Phase_Initiation_Approval</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Phase_Initiation_Approval</shortDescription>
+        <value>Initiation &amp; Approval</value>
+    </labels>
+    <labels>
+        <fullName>WF_Phase_Investigation</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Phase_Investigation</shortDescription>
+        <value>Investigation</value>
+    </labels>
+    <labels>
+        <fullName>WF_Phase_Parent_Approval_forFinding</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Phase_Parent_Approval_forFinding</shortDescription>
+        <value>Pending Parent Approval</value>
+    </labels>
+    <labels>
+        <fullName>WF_Phase_Pending_Closure_forFAN</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Phase_Pending_Closure_forFAN</shortDescription>
+        <value>Pending Closure</value>
+    </labels>
+    <labels>
+        <fullName>WF_Phase_Plan_Approvals</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Phase_Plan_Approvals</shortDescription>
+        <value>Plan Approvals</value>
+    </labels>
+    <labels>
+        <fullName>WF_Phase_Plan_definition</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Phase_Plan_definition</shortDescription>
+        <value>Plan definition</value>
+    </labels>
+    <labels>
+        <fullName>WF_Phase_Rejected</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Phase_Rejected</shortDescription>
+        <value>Rejected</value>
+    </labels>
+    <labels>
+        <fullName>WF_Phase_Report_Preparation_forAudit</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Phase_Report_Preparation_forAudit</shortDescription>
+        <value>Audit Report Preparation</value>
+    </labels>
+    <labels>
+        <fullName>WF_Phase_closed_forFABModule</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Phase_closed_forFABModule</shortDescription>
+        <value>Closed</value>
+    </labels>
+    <labels>
+        <fullName>WF_Status_Action_Effectiveness_Plans_Definition</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Status_Action_Effectiveness_Plans_Definition</shortDescription>
+        <value>Action &amp; Effectiveness Plans Definition</value>
+    </labels>
+    <labels>
+        <fullName>WF_Status_Action_Plan_Approval_forFinding</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Status__Action_Plan_Approval_forFinding</shortDescription>
+        <value>Pending Finding Action Plan Approval</value>
+    </labels>
+    <labels>
+        <fullName>WF_Status_Action_Plan_Approved_forAudit</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Status_Action_Plan_Approved_forAudit</shortDescription>
+        <value>Audit Action Plan Approved</value>
+    </labels>
+    <labels>
+        <fullName>WF_Status_Action_Plan_Def_forAudit</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Status_Action_Plan_Def_forAudit</shortDescription>
+        <value>Report Approved - Pending Action Plan Definition</value>
+    </labels>
+    <labels>
+        <fullName>WF_Status_Action_Plan_Implementation_forFinding</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Status_Action_Plan_Implementation_forFinding</shortDescription>
+        <value>Finding Action Plan Approved - To be Implemented</value>
+    </labels>
+    <labels>
+        <fullName>WF_Status_Actions_Implementation</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Status_Actions_Implementation</shortDescription>
+        <value>Actions Implementation</value>
+    </labels>
+    <labels>
+        <fullName>WF_Status_Approval</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Status_Approval</shortDescription>
+        <value>Approval</value>
+    </labels>
+    <labels>
+        <fullName>WF_Status_Assessment</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Status_Assessment</shortDescription>
+        <value>Assessment</value>
+    </labels>
+    <labels>
+        <fullName>WF_Status_Audit_Executed_forSchedule</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Status_Audit_Executed_forSchedule</shortDescription>
+        <value>Audit Schedule Executed</value>
+    </labels>
+    <labels>
+        <fullName>WF_Status_Audit_Execution_forAudit</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Status_Audit_Execution_forAudit</shortDescription>
+        <value>Pending Audit Execution</value>
+    </labels>
+    <labels>
+        <fullName>WF_Status_Audit_Implementation_forSchedule</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Status_Audit_Implementation_forSchedule</shortDescription>
+        <value>Audit Schedule Implementation</value>
+    </labels>
+    <labels>
+        <fullName>WF_Status_Audit_Preparation_forAudit</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Status_Audit_Preparation_forAudit</shortDescription>
+        <value>Audit Preparation</value>
+    </labels>
+    <labels>
+        <fullName>WF_Status_Audit_Report_Approval_forAudit</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Status_Audit_Report_Approval_forAudit</shortDescription>
+        <value>Pending Audit Report Approval</value>
+    </labels>
+    <labels>
+        <fullName>WF_Status_Audit_Report_Preparation</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Status_Audit_Report_Preparation</shortDescription>
+        <value>Audit Report Preparation</value>
+    </labels>
+    <labels>
+        <fullName>WF_Status_Audit_Schedule_Approval_forSchedule</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Status_Audit_Schedule_Approval_forSchedule</shortDescription>
+        <value>Pending Audit Schedule Approval</value>
+    </labels>
+    <labels>
+        <fullName>WF_Status_Audit_Schedule_Definition_forSchedule</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Status_Audit_Schedule_Definition_forSchedule</shortDescription>
+        <value>Audit Schedule Definition</value>
+    </labels>
+    <labels>
+        <fullName>WF_Status_Auditee_Response_forFinding</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Status_Auditee_Response_forFinding</shortDescription>
+        <value>Auditee&apos;s Response</value>
+    </labels>
+    <labels>
+        <fullName>WF_Status_Canceled</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Status_Canceled</shortDescription>
+        <value>Canceled</value>
+    </labels>
+    <labels>
+        <fullName>WF_Status_Canceled_AuditModule</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Status_Canceled_AuditModule</shortDescription>
+        <value>Closed - Canceled</value>
+    </labels>
+    <labels>
+        <fullName>WF_Status_Canceled_forFABmodule</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Status_Canceled_forFABmodule</shortDescription>
+        <value>Closed - Canceled</value>
+    </labels>
+    <labels>
+        <fullName>WF_Status_Closed</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Status_Closed</shortDescription>
+        <value>Closed</value>
+    </labels>
+    <labels>
+        <fullName>WF_Status_Closed_Approved_forFABmodule</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Status_Closed-Approved_forFABmodule</shortDescription>
+        <value>Closed -  Approved</value>
+    </labels>
+    <labels>
+        <fullName>WF_Status_Closed_Canceled</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF-Status-Closed - Canceled</shortDescription>
+        <value>Closed - Canceled</value>
+    </labels>
+    <labels>
+        <fullName>WF_Status_Closed_Done</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF-Status-Closed - Done</shortDescription>
+        <value>Closed - Done</value>
+    </labels>
+    <labels>
+        <fullName>WF_Status_Closed_Submitted</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF-Status-Closed-Submitted</shortDescription>
+        <value>Closed-Submitted</value>
+    </labels>
+    <labels>
+        <fullName>WF_Status_Closed_forAuditModule</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Status_Closed_forAuditModule</shortDescription>
+        <value>Closed - Done</value>
+    </labels>
+    <labels>
+        <fullName>WF_Status_Effectiveness_Check</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Status_Effectiveness_Check</shortDescription>
+        <value>Effectiveness Check</value>
+    </labels>
+    <labels>
+        <fullName>WF_Status_Effectiveness_Check_Approval</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Status_Effectiveness_Check_Approval</shortDescription>
+        <value>Effectiveness Check Approval</value>
+    </labels>
+    <labels>
+        <fullName>WF_Status_Evaluation</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Status_Evaluation</shortDescription>
+        <value>Evaluation</value>
+    </labels>
+    <labels>
+        <fullName>WF_Status_FAB_Initiation_forFAB</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Status_FAB_Initiation_forFAB</shortDescription>
+        <value>FAB Initiation</value>
+    </labels>
+    <labels>
+        <fullName>WF_Status_FA_Notification_Initiation_forFANotification</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Status_FA_Notification_Initiation_forFANotification</shortDescription>
+        <value>FA Notification Initiation</value>
+    </labels>
+    <labels>
+        <fullName>WF_Status_Implementation</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Status_Implementation</shortDescription>
+        <value>Implementation</value>
+    </labels>
+    <labels>
+        <fullName>WF_Status_In_Progress</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF-Status-In Progress</shortDescription>
+        <value>In Progress</value>
+    </labels>
+    <labels>
+        <fullName>WF_Status_In_Progress_Pending_Requested_Data</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF-Status-In Progress - Pending Requested Data</shortDescription>
+        <value>In Progress - Pending Requested Data</value>
+    </labels>
+    <labels>
+        <fullName>WF_Status_Initiated</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Status_Initiated</shortDescription>
+        <value>Initiated</value>
+    </labels>
+    <labels>
+        <fullName>WF_Status_Initiated_forAuditModule</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Status_Initiated_forAuditModule</shortDescription>
+        <value>Initiated</value>
+    </labels>
+    <labels>
+        <fullName>WF_Status_Investigation</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Status_Investigation</shortDescription>
+        <value>Investigation</value>
+    </labels>
+    <labels>
+        <fullName>WF_Status_Investigation_forCauInv</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Status_Investigation_forCauInv</shortDescription>
+        <value>Investigation</value>
+    </labels>
+    <labels>
+        <fullName>WF_Status_Opened</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF-Status-Opened</shortDescription>
+        <value>Opened</value>
+    </labels>
+    <labels>
+        <fullName>WF_Status_Parent_Approval_forFinding</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Status_Parent_Approval_forFinding</shortDescription>
+        <value>Pending Parent Approval</value>
+    </labels>
+    <labels>
+        <fullName>WF_Status_Pending_Approval</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF-Status-Pending Approval</shortDescription>
+        <value>Pending Approval</value>
+    </labels>
+    <labels>
+        <fullName>WF_Status_Pending_Approval_forFABmodule</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Status_Pending_Approval_forFABmodule</shortDescription>
+        <value>Pending Approval</value>
+    </labels>
+    <labels>
+        <fullName>WF_Status_Pending_Closure</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Status_Pending_Closure</shortDescription>
+        <value>Pending Closure</value>
+    </labels>
+    <labels>
+        <fullName>WF_Status_Pending_Closure_forCauInv</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Status_Pending_Closure_forCauInv</shortDescription>
+        <value>Pending Closure</value>
+    </labels>
+    <labels>
+        <fullName>WF_Status_Pending_Closure_forFANotification</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Status_Pending_Closure_forFANotification</shortDescription>
+        <value>Pending Closure</value>
+    </labels>
+    <labels>
+        <fullName>WF_Status_Pending_Expert_Investigation</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF-Status-Pending Expert Investigation</shortDescription>
+        <value>Pending Expert Investigation</value>
+    </labels>
+    <labels>
+        <fullName>WF_Status_Pending_GCS_Review</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF-Status-Pending GCS Review</shortDescription>
+        <value>Pending Investigator Review</value>
+    </labels>
+    <labels>
+        <fullName>WF_Status_Pending_Plan_Approval</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Status_Pending_Plan_Approval</shortDescription>
+        <value>Pending Plan Approval</value>
+    </labels>
+    <labels>
+        <fullName>WF_Status_Pending_Response</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF-Status-Pending Response</shortDescription>
+        <value>Pending Response</value>
+    </labels>
+    <labels>
+        <fullName>WF_Status_QA_Approval</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Status_QA_Approval</shortDescription>
+        <value>QA Approval</value>
+    </labels>
+    <labels>
+        <fullName>WF_Status_Quality_Approval</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Status_Quality_Approval</shortDescription>
+        <value>Quality Approval</value>
+    </labels>
+    <labels>
+        <fullName>WF_Status_Rejected</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Status_Rejected</shortDescription>
+        <value>Rejected</value>
+    </labels>
+    <labels>
+        <fullName>WF_Status_Report_Preparation_forAudit</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Status_Report_Preparation_forAudit</shortDescription>
+        <value>Audit Report Preparation</value>
+    </labels>
+    <labels>
+        <fullName>WF_Status_Review_in_Progress</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF-Status-Review in Progress</shortDescription>
+        <value>Review in Progress</value>
+    </labels>
+    <labels>
+        <fullName>WF_Status_Submission_in_Progress</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF-Status-Submission in Progress</shortDescription>
+        <value>Submission in Progress</value>
+    </labels>
+    <labels>
+        <fullName>WF_Submit_for_approval_forFAB</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WF_Submit_for_approval_forFAB</shortDescription>
+        <value>Submit for Approval</value>
+    </labels>
+    <labels>
+        <fullName>Wrong_Information</fullName>
+        <categories>RFC</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Wrong Information</shortDescription>
+        <value>Wrong Information</value>
+    </labels>
+    <labels>
+        <fullName>errorMessageForRequiredFieldsIRevisionHistory</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>errorMessageForRequiredFieldsIRevisionHistory</shortDescription>
+        <value>Required Fields are not filled in these Revision History :</value>
+    </labels>
+    <labels>
+        <fullName>errorMessageForRequiredFieldsInQA</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>errorMessageForRequiredFieldsInQA</shortDescription>
+        <value>Please check if any mandatory fields, listed below, have not been filled:
+- Lead Auditor
+- Audit Method
+- Planned Quarter
+- Reason for Audit
+- Audit Objectives
+- Associated Steering committee(s) (External only)
+- Distributor Category (Distributor only)
+- Distributor Type (Distributor only)</value>
+    </labels>
+    <labels>
+        <fullName>error_Message_Mandatory_Fields_In_Finding</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>error Message Mandatory Fields In Finding</shortDescription>
+        <value>Mandatory Fields Distributor Finding Category or Action Plan Definition Due Date are missing</value>
+    </labels>
+    <labels>
+        <fullName>fflib_QueryFactory_crossobject_fieldsets_not_allowed_error</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error when selecting a cross-object fieldsset is not allowed and attempted.</shortDescription>
+        <value>Cross-object fields not allowed and field &quot;{0}&quot; is a cross-object field.</value>
+    </labels>
+    <labels>
+        <fullName>fflib_QueryFactory_fieldset_wrong_sobject_error</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error when selecting a field set for a different sobject type.</shortDescription>
+        <value>Field set &quot;{0}&quot; is not for SObject type &quot;{1}&quot;</value>
+    </labels>
+    <labels>
+        <fullName>fflib_QueryFactory_recursive_subquery_error</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Presented when attempting to nest subqueries.</shortDescription>
+        <value>Invalid call to subselectQuery.  You may not add a subselect query to a subselect query.</value>
+    </labels>
+    <labels>
+        <fullName>fflib_QueryFactory_subquery_invalid_relationship</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Presented when attempting to create a subquery from an invalid relationship.</shortDescription>
+        <value>Invalid call to subselectQuery.  Invalid relationship for table.</value>
+    </labels>
+    <labels>
+        <fullName>fflib_security_error_field_not_insertable</fullName>
+        <categories>security,error</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>fflib_security_error_field_not_insertable</shortDescription>
+        <value>You do not have permission to insert field {1} on {0}</value>
+    </labels>
+    <labels>
+        <fullName>fflib_security_error_field_not_readable</fullName>
+        <categories>security,error</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>fflib_security_error_field_not_readable</shortDescription>
+        <value>You do not have permission to read the field {1} on {0}</value>
+    </labels>
+    <labels>
+        <fullName>fflib_security_error_field_not_updateable</fullName>
+        <categories>security,error</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>fflib_security_error_field_not_updateable</shortDescription>
+        <value>You do not have permission to update the field {1} on {0}</value>
+    </labels>
+    <labels>
+        <fullName>fflib_security_error_object_not_deletable</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>fflib_security_error_object_not_deletable</shortDescription>
+        <value>You do not have permission to delete {0}</value>
+    </labels>
+    <labels>
+        <fullName>fflib_security_error_object_not_insertable</fullName>
+        <categories>security,error</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>fflib_security_error_object_not_insertable</shortDescription>
+        <value>You do not have permission to insert {0}</value>
+    </labels>
+    <labels>
+        <fullName>fflib_security_error_object_not_readable</fullName>
+        <categories>security,error</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>fflib_security_error_object_not_readable</shortDescription>
+        <value>You do not have permission to read {0}</value>
+    </labels>
+    <labels>
+        <fullName>fflib_security_error_object_not_updateable</fullName>
+        <categories>security,error</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>fflib_security_error_object_not_updateable</shortDescription>
+        <value>You do not have permission to update {0}</value>
+    </labels>
+</CustomLabels>

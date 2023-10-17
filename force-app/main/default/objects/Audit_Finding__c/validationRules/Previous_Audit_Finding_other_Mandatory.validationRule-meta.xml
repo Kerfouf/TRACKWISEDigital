@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Previous_Audit_Finding_other_Mandatory</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+    ISPICKVAL(Repeat_Finding__c, &apos;Yes-Not in TWD&apos;),
+    ISBLANK(Previous_Audit_Finding_Other__c)
+)</errorConditionFormula>
+    <errorMessage>Please provide &apos;Previous Audit Finding (other)&apos; when &apos;Repeat Finding&apos; is &apos;Yes-Not in TWD&apos;</errorMessage>
+</ValidationRule>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lock_fields_during_Schedule_approval</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(NOT(ISNEW()),  Audit_Schedule__r.CMPL123_WF_Status__c = &apos;Pending Audit Schedule Approval&apos;)</errorConditionFormula>
+    <errorMessage>Quality Audit can not be modified when parent Audit Schedule status is Pending Audit Schedule Approval</errorMessage>
+</ValidationRule>

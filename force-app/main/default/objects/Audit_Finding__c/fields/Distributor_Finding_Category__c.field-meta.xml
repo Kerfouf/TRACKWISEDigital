@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Distributor_Finding_Category__c</fullName>
+    <externalId>false</externalId>
+    <label>Distributor Finding Category</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Complaint handling</fullName>
+                <default>false</default>
+                <label>Complaint handling</label>
+            </value>
+            <value>
+                <fullName>Customer Service Activities</fullName>
+                <default>false</default>
+                <label>Customer Service Activities</label>
+            </value>
+            <value>
+                <fullName>HR &amp; Training;RA activities</fullName>
+                <default>false</default>
+                <label>HR &amp; Training;RA activities</label>
+            </value>
+            <value>
+                <fullName>Logistics &amp; Transport;QMS</fullName>
+                <default>false</default>
+                <label>Logistics &amp; Transport;QMS</label>
+            </value>
+            <value>
+                <fullName>Sales &amp; Marketing</fullName>
+                <default>false</default>
+                <label>Sales &amp; Marketing</label>
+            </value>
+            <value>
+                <fullName>Sales Admin</fullName>
+                <default>false</default>
+                <label>Sales Admin</label>
+            </value>
+            <value>
+                <fullName>Vigilance &amp; FA</fullName>
+                <default>false</default>
+                <label>Vigilance &amp; FA</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

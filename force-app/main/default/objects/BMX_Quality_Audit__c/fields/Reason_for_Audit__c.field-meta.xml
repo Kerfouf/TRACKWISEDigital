@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reason_for_Audit__c</fullName>
+    <externalId>false</externalId>
+    <label>Reason for Audit</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Certification Audit</fullName>
+                <default>false</default>
+                <label>Certification Audit</label>
+            </value>
+            <value>
+                <fullName>Follow-up Audit</fullName>
+                <default>false</default>
+                <label>Follow-up Audit</label>
+            </value>
+            <value>
+                <fullName>For Cause audit</fullName>
+                <default>false</default>
+                <label>For Cause audit</label>
+            </value>
+            <value>
+                <fullName>Mock Inspection</fullName>
+                <default>false</default>
+                <label>Mock Inspection</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Priority Audit</fullName>
+                <default>false</default>
+                <label>Priority Audit</label>
+            </value>
+            <value>
+                <fullName>Qualification Audit</fullName>
+                <default>false</default>
+                <label>Qualification Audit</label>
+            </value>
+            <value>
+                <fullName>Re-audit</fullName>
+                <default>false</default>
+                <label>Re-audit</label>
+            </value>
+            <value>
+                <fullName>Routine audit</fullName>
+                <default>false</default>
+                <label>Routine audit</label>
+            </value>
+            <value>
+                <fullName>Special request from Management</fullName>
+                <default>false</default>
+                <label>Special request from Management</label>
+            </value>
+            <value>
+                <fullName>&quot;Technical&quot; Audit (wording to be confirmed)</fullName>
+                <default>false</default>
+                <label>Technical Audit</label>
+            </value>
+            <value>
+                <fullName>Unannounced audit;</fullName>
+                <default>false</default>
+                <label>Unannounced audit;</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Limit_Lead_Auditor</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+    NOT(ISBLANK(Lead_Auditor__c)),
+    NOT(
+        OR(
+            INCLUDES(Lead_Auditor__r.TWD_Role__c, &apos;Audit Coordinator&apos;),
+            INCLUDES(Lead_Auditor__r.TWD_Role__c, &apos;Audit Participant&apos;)
+        )
+    )
+)</errorConditionFormula>
+    <errorDisplayField>Lead_Auditor__c</errorDisplayField>
+    <errorMessage>This field requires a User with the Audit Coordinator or Audit Participant role</errorMessage>
+</ValidationRule>

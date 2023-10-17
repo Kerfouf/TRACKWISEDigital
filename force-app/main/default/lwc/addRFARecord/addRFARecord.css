@@ -1,0 +1,50 @@
+.slds-m-left_medium {
+    margin-left: 1rem;
+  }
+  
+  .slds-m-top_medium {
+    margin-top: 1rem;
+  }
+
+  .slds-m-bottom_medium {
+    margin-bottom: 1rem;
+  }
+  
+  .spinner {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80px;
+    height: 80px;
+    background: none;
+  }
+  
+  .spinner-text {
+    text-align: center;
+  }
+  
+  .notPossibleToAddProduct {
+    text-align: center;
+    font-size: 1.2em;
+  }
+  
+  .noDataPanel {
+    text-align: center;
+    font-size: 1.2em;
+    margin-top: 5%;
+  }
+  
+  .errorPanel {
+    text-align: center;
+    font-size: 1.1em;
+    margin-top: 5%;
+  }
+  
+  :host {
+  display: block;
+  width: 900px; /* ajustez la largeur selon vos besoins */
+  height: 300px; /* ajustez la hauteur selon vos besoins */
+}
+.my-custom-class {
+  margin-top: 50px;
+}

@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Origination_Entity__c</fullName>
+    <externalId>false</externalId>
+    <label>Origination Entity</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Origination__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetName>Origination_Location</valueSetName>
+        <valueSettings>
+            <controllingFieldValue>Corporate</controllingFieldValue>
+            <valueName>ASPAC RDC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Corporate</controllingFieldValue>
+            <valueName>Clinical Affairs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Corporate</controllingFieldValue>
+            <valueName>Document Control</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Corporate</controllingFieldValue>
+            <valueName>Global Customer Service</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Corporate</controllingFieldValue>
+            <valueName>Global Industry Customer Service</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Corporate</controllingFieldValue>
+            <valueName>Global Industry Quality</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Corporate</controllingFieldValue>
+            <valueName>Global Marketing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Corporate</controllingFieldValue>
+            <valueName>Global Product Labeling Department</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Corporate</controllingFieldValue>
+            <valueName>Global Quality</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Corporate</controllingFieldValue>
+            <valueName>Global Quality Audit &amp; Compliance</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Corporate</controllingFieldValue>
+            <valueName>Global Quality System &amp; Support</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Corporate</controllingFieldValue>
+            <valueName>Global Supply Chain</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Corporate</controllingFieldValue>
+            <valueName>Human Resources</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Corporate</controllingFieldValue>
+            <valueName>IDC - France</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Corporate</controllingFieldValue>
+            <valueName>IDC – USA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Corporate</controllingFieldValue>
+            <valueName>Information Systems</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Corporate</controllingFieldValue>
+            <valueName>Master Data Management</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Corporate</controllingFieldValue>
+            <valueName>Medical Affairs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Corporate</controllingFieldValue>
+            <valueName>Purchasing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Corporate</controllingFieldValue>
+            <valueName>Quality Post-Market</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Corporate</controllingFieldValue>
+            <valueName>Quality Pre-Market</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Corporate</controllingFieldValue>
+            <valueName>Regulatory &amp; Quality Compliance</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Corporate</controllingFieldValue>
+            <valueName>Regulatory Affairs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Corporate</controllingFieldValue>
+            <valueName>Research &amp; Development</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Corporate</controllingFieldValue>
+            <valueName>Third Party Products</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Corporate</controllingFieldValue>
+            <valueName>Trade Compliance</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Manufacturing Site</controllingFieldValue>
+            <valueName>BSB (Shanghai)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Manufacturing Site</controllingFieldValue>
+            <valueName>BSuB (Suzhou)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Manufacturing Site</controllingFieldValue>
+            <valueName>Combourg</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Manufacturing Site</controllingFieldValue>
+            <valueName>Craponne</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Manufacturing Site</controllingFieldValue>
+            <valueName>Durham – Rodolphe St.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Manufacturing Site</controllingFieldValue>
+            <valueName>Firenze</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Manufacturing Site</controllingFieldValue>
+            <valueName>Grenoble</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Manufacturing Site</controllingFieldValue>
+            <valueName>Hyderabad</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Manufacturing Site</controllingFieldValue>
+            <valueName>LaBalme</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Manufacturing Site</controllingFieldValue>
+            <valueName>Lombard</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Manufacturing Site</controllingFieldValue>
+            <valueName>Marcy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Manufacturing Site</controllingFieldValue>
+            <valueName>Philadelphia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Manufacturing Site</controllingFieldValue>
+            <valueName>Rio de Janeiro</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Manufacturing Site</controllingFieldValue>
+            <valueName>Salt Lake City (Biofire Defense)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Manufacturing Site</controllingFieldValue>
+            <valueName>Salt Lake City (Biofire Diagnostics)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Manufacturing Site</controllingFieldValue>
+            <valueName>San Jose</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Manufacturing Site</controllingFieldValue>
+            <valueName>St. Louis</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Manufacturing Site</controllingFieldValue>
+            <valueName>Sydney BTF</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Manufacturing Site</controllingFieldValue>
+            <valueName>Tres Cantos</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Manufacturing Site</controllingFieldValue>
+            <valueName>Verniolle</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Subsidiary</controllingFieldValue>
+            <valueName>Adriatic</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Subsidiary</controllingFieldValue>
+            <valueName>Africa</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Subsidiary</controllingFieldValue>
+            <valueName>Algeria</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Subsidiary</controllingFieldValue>
+            <valueName>Argentina</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Subsidiary</controllingFieldValue>
+            <valueName>Australia &amp; New Zealand</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Subsidiary</controllingFieldValue>
+            <valueName>Austria</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Subsidiary</controllingFieldValue>
+            <valueName>Benelux</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Subsidiary</controllingFieldValue>
+            <valueName>BenNor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Subsidiary</controllingFieldValue>
+            <valueName>Brazil</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Subsidiary</controllingFieldValue>
+            <valueName>Canada</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Subsidiary</controllingFieldValue>
+            <valueName>CEC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Subsidiary</controllingFieldValue>
+            <valueName>Chile</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Subsidiary</controllingFieldValue>
+            <valueName>China</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Subsidiary</controllingFieldValue>
+            <valueName>Colombia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Subsidiary</controllingFieldValue>
+            <valueName>Czech Republic</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Subsidiary</controllingFieldValue>
+            <valueName>Egypt</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Subsidiary</controllingFieldValue>
+            <valueName>Export Distributors - Africa</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Subsidiary</controllingFieldValue>
+            <valueName>Export Distributors - ASPAC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Subsidiary</controllingFieldValue>
+            <valueName>Export Distributors - EME</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Subsidiary</controllingFieldValue>
+            <valueName>Export Distributors - LATAM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Subsidiary</controllingFieldValue>
+            <valueName>Export Distributors - NORAM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Subsidiary</controllingFieldValue>
+            <valueName>France</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Subsidiary</controllingFieldValue>
+            <valueName>Germany</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Subsidiary</controllingFieldValue>
+            <valueName>Greece</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Subsidiary</controllingFieldValue>
+            <valueName>Hong Kong</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Subsidiary</controllingFieldValue>
+            <valueName>Hungary</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Subsidiary</controllingFieldValue>
+            <valueName>Iberia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Subsidiary</controllingFieldValue>
+            <valueName>India</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Subsidiary</controllingFieldValue>
+            <valueName>Italy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Subsidiary</controllingFieldValue>
+            <valueName>Japan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Subsidiary</controllingFieldValue>
+            <valueName>Kenya</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Subsidiary</controllingFieldValue>
+            <valueName>METER</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Subsidiary</controllingFieldValue>
+            <valueName>Mexico</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Subsidiary</controllingFieldValue>
+            <valueName>Nigeria</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Subsidiary</controllingFieldValue>
+            <valueName>Nordics</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Subsidiary</controllingFieldValue>
+            <valueName>Poland</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Subsidiary</controllingFieldValue>
+            <valueName>Portugal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Subsidiary</controllingFieldValue>
+            <valueName>Russia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Subsidiary</controllingFieldValue>
+            <valueName>Serbia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Subsidiary</controllingFieldValue>
+            <valueName>Singapore</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Subsidiary</controllingFieldValue>
+            <valueName>South Africa</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Subsidiary</controllingFieldValue>
+            <valueName>South Korea</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Subsidiary</controllingFieldValue>
+            <valueName>Spain</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Subsidiary</controllingFieldValue>
+            <valueName>SSC Europe</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Subsidiary</controllingFieldValue>
+            <valueName>SSC LATAM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Subsidiary</controllingFieldValue>
+            <valueName>Switzerland</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Subsidiary</controllingFieldValue>
+            <valueName>Thailand</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Subsidiary</controllingFieldValue>
+            <valueName>Turkey</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Subsidiary</controllingFieldValue>
+            <valueName>UKI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Subsidiary</controllingFieldValue>
+            <valueName>United Kingdom</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Subsidiary</controllingFieldValue>
+            <valueName>USA</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

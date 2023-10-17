@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>58.0</apiVersion>
+    <interviewLabel>Audit Schedule - Audit is Revised --&gt; create Revision history {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>[Audits Schedule] [After Update] create Revision history when Quality Audit is revised</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordCreates>
+        <name>CREATE_REVISION_HISTORY</name>
+        <label>CREATE REVISION HISTORY</label>
+        <locationX>176</locationX>
+        <locationY>323</locationY>
+        <inputAssignments>
+            <field>Audit_Code__c</field>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Audit_Schedule_Number__c</field>
+            <value>
+                <elementReference>$Record.Audit_Schedule__r.Id</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Revision__c</field>
+            <value>
+                <elementReference>$Record.Audit_Schedule__r.Revision__c</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Revision_History__c</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordCreates>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>CREATE_REVISION_HISTORY</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>CMPL123_WF_Action__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Send Back to Initiation</stringValue>
+            </value>
+        </filters>
+        <object>BMX_Quality_Audit__c</object>
+        <recordTriggerType>Update</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>

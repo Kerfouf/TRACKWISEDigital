@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Distributor_Finding_Category_Mandatory</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+				RecordType.DeveloperName = &quot;External&quot;,
+    Parent_Audit__r.Scope__c = &quot;Distributor&quot;,
+    Parent_Audit__r.CMPL123_WF_Action__c = &quot;Report/Finding Created - Ready for Approval&quot;,
+    ISPICKVAL(Distributor_Finding_Category__c,&quot;&quot;)
+)</errorConditionFormula>
+    <errorMessage>please provide a value for &apos;Distributor Finding Category&apos;</errorMessage>
+</ValidationRule>

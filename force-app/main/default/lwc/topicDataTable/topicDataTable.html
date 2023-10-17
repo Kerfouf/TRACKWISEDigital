@@ -1,0 +1,48 @@
+<template>
+    <div class="slds-box">
+        <h1 class="slds-text-heading_large">Audit Related List – Audit Criteria</h1>
+        <table class="slds-table slds-table_bordered slds-table_cell-buffer">
+            <thead>
+                <tr class="slds-line-height_reset">
+                    <th class="slds-text-title_caps slds-is-sortable slds-is-resizable" style="border: 1px solid #d8dde6;">
+                        <div class="slds-truncate" title="Topic Name">Topic Name</div>
+                    </th>
+                    <th class="slds-text-title_caps slds-is-sortable slds-is-resizable" style="border: 1px solid #d8dde6;">
+                        <div class="slds-truncate" title="Topic (Lookup)">Topic</div>
+                    </th>
+                    <th class="slds-text-title_caps slds-is-sortable slds-is-resizable" style="border: 1px solid #d8dde6;">
+                        <div class="slds-truncate" title="Source">Source</div>
+                    </th>
+                    <th class="slds-text-title_caps slds-is-sortable slds-is-resizable" style="border: 1px solid #d8dde6;">
+                        <div class="slds-truncate" title="Chapter">Chapter</div>
+                    </th>
+                    <th class="slds-text-title_caps slds-is-sortable slds-is-resizable" style="border: 1px solid #d8dde6;">
+                        <div class="slds-truncate" title="Comments">Comments</div>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Use a template for:each to iterate through your data and populate table rows -->
+                <template for:each={auditData} for:item="item">
+                    <tr key={item.Id}>
+                        <td style="border: 1px solid #d8dde6;">
+                            <div class="slds-truncate">{item.TopicName}</div>
+                        </td>
+                        <td style="border: 1px solid #d8dde6;">
+                            <div class="slds-truncate">{item.TopicLookup}</div>
+                        </td>
+                        <td style="border: 1px solid #d8dde6;">
+                            <div class="slds-truncate">{item.Source}</div>
+                        </td>
+                        <td style="border: 1px solid #d8dde6;">
+                            <div class="slds-truncate">{item.Chapter}</div>
+                        </td>
+                        <td style="border: 1px solid #d8dde6;">
+                            <div class="slds-truncate">{item.Comments}</div>
+                        </td>
+                    </tr>
+                </template>
+            </tbody>
+        </table>
+    </div>
+</template>

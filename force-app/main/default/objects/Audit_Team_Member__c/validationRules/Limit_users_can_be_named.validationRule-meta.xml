@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Limit_users_can_be_named</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND (
+ ISPICKVAL(Role__c,&apos;Auditor&apos;),
+NOT(
+OR(
+INCLUDES(Member__r.TWD_Role__c, &apos;Audit Coordinator&apos;),
+INCLUDES(Member__r.TWD_Role__c, &apos;Audit Participant&apos;)
+)
+)
+)</errorConditionFormula>
+    <errorMessage>TWD-Participant must have TWD role &quot;Audit Participant&quot; or “Audit Coordinator”</errorMessage>
+</ValidationRule>

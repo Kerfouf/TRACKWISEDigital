@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Non_Conformity_Type_Mandatory</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+				RecordType.DeveloperName =&apos;Internal&apos;,
+    ISPICKVAL(Finding_Type__c, &apos;Non-Conformity&apos;),
+    ISPICKVAL(Nonconformity_Type__c, &apos;&apos;)
+)</errorConditionFormula>
+    <errorMessage>When &apos;Finding Type&apos; is set to &apos;Non-Conformity&apos;, &apos;Non-Conformity Type&apos; is required</errorMessage>
+</ValidationRule>

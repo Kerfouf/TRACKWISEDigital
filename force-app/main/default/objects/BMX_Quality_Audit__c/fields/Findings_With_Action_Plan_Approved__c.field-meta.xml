@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Findings_With_Action_Plan_Approved__c</fullName>
+    <externalId>false</externalId>
+    <label>Findings With Action Plan Approved</label>
+    <summaryFilterItems>
+        <field>Audit_Finding__c.CMPL123_WF_Status__c</field>
+        <operation>equals</operation>
+        <value>Finding Action Plan Approved - To be Implemented</value>
+    </summaryFilterItems>
+    <summaryFilterItems>
+        <field>Audit_Finding__c.CMPL123_WF_Status__c</field>
+        <operation>equals</operation>
+        <value>Closed - Done</value>
+    </summaryFilterItems>
+    <summaryForeignKey>Audit_Finding__c.Parent_Audit__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

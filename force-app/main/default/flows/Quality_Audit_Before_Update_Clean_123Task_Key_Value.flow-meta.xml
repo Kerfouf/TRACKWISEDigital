@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>55.0</apiVersion>
+    <environments>Default</environments>
+    <interviewLabel>[Quality Audit][Before Update] Clean 123Task Key Value {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>[Quality Audit][Before Update] Clean 123Task Key Value</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordUpdates>
+        <name>CleaN_TASK_KEY_VALUE</name>
+        <label>CleaN TASK KEY VALUE</label>
+        <locationX>176</locationX>
+        <locationY>323</locationY>
+        <filterLogic>1 AND ( 2 OR 3 OR 4)</filterLogic>
+        <filters>
+            <field>CMPL123Task_Key_Value__c</field>
+            <operator>IsNull</operator>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </filters>
+        <filters>
+            <field>CMPL123_WF_Status__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>AuditPreparation</elementReference>
+            </value>
+        </filters>
+        <filters>
+            <field>CMPL123_WF_Status__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Audit Action Plan Approved</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>CMPL123_WF_Status__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Closed - Done</stringValue>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>CMPL123Task_Key_Value__c</field>
+            <value>
+                <stringValue></stringValue>
+            </value>
+        </inputAssignments>
+        <object>BMX_Quality_Audit__c</object>
+    </recordUpdates>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>CleaN_TASK_KEY_VALUE</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>CMPL123Task_Key_Value__c</field>
+            <operator>IsChanged</operator>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </filters>
+        <object>BMX_Quality_Audit__c</object>
+        <recordTriggerType>Update</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+    <variables>
+        <name>AuditPreparation</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <value>
+            <stringValue>Audit Preparation</stringValue>
+        </value>
+    </variables>
+</Flow>

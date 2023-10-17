@@ -1,0 +1,579 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Adriatic</fullName>
+        <default>false</default>
+        <label>Adriatic</label>
+    </customValue>
+    <customValue>
+        <fullName>Africa</fullName>
+        <default>false</default>
+        <label>Africa</label>
+    </customValue>
+    <customValue>
+        <fullName>Algeria</fullName>
+        <default>false</default>
+        <label>Algeria</label>
+    </customValue>
+    <customValue>
+        <fullName>Argentina</fullName>
+        <default>false</default>
+        <label>Argentina</label>
+    </customValue>
+    <customValue>
+        <fullName>ASPAC RDC</fullName>
+        <default>false</default>
+        <label>ASPAC RDC</label>
+    </customValue>
+    <customValue>
+        <fullName>Astute</fullName>
+        <default>false</default>
+        <label>Astute</label>
+    </customValue>
+    <customValue>
+        <fullName>Australia &amp; New Zealand</fullName>
+        <default>false</default>
+        <label>Australia &amp; New Zealand</label>
+    </customValue>
+    <customValue>
+        <fullName>Austria</fullName>
+        <default>false</default>
+        <label>Austria</label>
+    </customValue>
+    <customValue>
+        <fullName>Benelux</fullName>
+        <default>false</default>
+        <label>Benelux</label>
+    </customValue>
+    <customValue>
+        <fullName>BenNor</fullName>
+        <default>false</default>
+        <label>BenNor</label>
+    </customValue>
+    <customValue>
+        <fullName>Brazil</fullName>
+        <default>false</default>
+        <label>Brazil</label>
+    </customValue>
+    <customValue>
+        <fullName>BSB (Shanghai)</fullName>
+        <default>false</default>
+        <label>BSB (Shanghai)</label>
+    </customValue>
+    <customValue>
+        <fullName>BSuB (Suzhou)</fullName>
+        <default>false</default>
+        <label>BSuB (Suzhou)</label>
+    </customValue>
+    <customValue>
+        <fullName>Canada</fullName>
+        <default>false</default>
+        <label>Canada</label>
+    </customValue>
+    <customValue>
+        <fullName>CEC</fullName>
+        <default>false</default>
+        <label>CEC</label>
+    </customValue>
+    <customValue>
+        <fullName>Chile</fullName>
+        <default>false</default>
+        <label>Chile</label>
+    </customValue>
+    <customValue>
+        <fullName>China</fullName>
+        <default>false</default>
+        <label>China</label>
+    </customValue>
+    <customValue>
+        <fullName>Clinical Affairs</fullName>
+        <default>false</default>
+        <label>Clinical Affairs</label>
+    </customValue>
+    <customValue>
+        <fullName>Colombia</fullName>
+        <default>false</default>
+        <label>Colombia</label>
+    </customValue>
+    <customValue>
+        <fullName>Combourg</fullName>
+        <default>false</default>
+        <label>Combourg</label>
+    </customValue>
+    <customValue>
+        <fullName>Craponne</fullName>
+        <default>false</default>
+        <label>Craponne</label>
+    </customValue>
+    <customValue>
+        <fullName>Czech Republic</fullName>
+        <default>false</default>
+        <label>Czech Republic</label>
+    </customValue>
+    <customValue>
+        <fullName>Document Control</fullName>
+        <default>false</default>
+        <label>Document Control</label>
+    </customValue>
+    <customValue>
+        <fullName>Durham – Rodolphe St.</fullName>
+        <default>false</default>
+        <label>Durham – Rodolphe St.</label>
+    </customValue>
+    <customValue>
+        <fullName>Egypt</fullName>
+        <default>false</default>
+        <label>Egypt</label>
+    </customValue>
+    <customValue>
+        <fullName>Export Distributors - Africa</fullName>
+        <default>false</default>
+        <label>Export Distributors - Africa</label>
+    </customValue>
+    <customValue>
+        <fullName>Export Distributors - ASPAC</fullName>
+        <default>false</default>
+        <label>Export Distributors - ASPAC</label>
+    </customValue>
+    <customValue>
+        <fullName>Export Distributors - EME</fullName>
+        <default>false</default>
+        <label>Export Distributors - EME</label>
+    </customValue>
+    <customValue>
+        <fullName>Export Distributors - LATAM</fullName>
+        <default>false</default>
+        <label>Export Distributors - LATAM</label>
+    </customValue>
+    <customValue>
+        <fullName>Export Distributors - NORAM</fullName>
+        <default>false</default>
+        <label>Export Distributors - NORAM</label>
+    </customValue>
+    <customValue>
+        <fullName>Firenze</fullName>
+        <default>false</default>
+        <label>Firenze</label>
+    </customValue>
+    <customValue>
+        <fullName>France</fullName>
+        <default>false</default>
+        <label>France</label>
+    </customValue>
+    <customValue>
+        <fullName>Germany</fullName>
+        <default>false</default>
+        <label>Germany</label>
+    </customValue>
+    <customValue>
+        <fullName>Global Customer Service</fullName>
+        <default>false</default>
+        <label>Global Customer Service</label>
+    </customValue>
+    <customValue>
+        <fullName>Global Industry Customer Service</fullName>
+        <default>false</default>
+        <label>Global Industry Customer Service</label>
+    </customValue>
+    <customValue>
+        <fullName>Global Industry Quality</fullName>
+        <default>false</default>
+        <label>Global Industry Quality</label>
+    </customValue>
+    <customValue>
+        <fullName>Global Marketing</fullName>
+        <default>false</default>
+        <label>Global Marketing</label>
+    </customValue>
+    <customValue>
+        <fullName>Global Product Labeling Department</fullName>
+        <default>false</default>
+        <label>Global Product Labeling Department</label>
+    </customValue>
+    <customValue>
+        <fullName>Global Quality</fullName>
+        <default>false</default>
+        <label>Global Quality</label>
+    </customValue>
+    <customValue>
+        <fullName>Global Quality Audit &amp; Compliance</fullName>
+        <default>false</default>
+        <label>Global Quality Audit &amp; Compliance</label>
+    </customValue>
+    <customValue>
+        <fullName>Global Quality System &amp; Support</fullName>
+        <default>false</default>
+        <label>Global Quality System &amp; Support</label>
+    </customValue>
+    <customValue>
+        <fullName>Global Supply Chain</fullName>
+        <default>false</default>
+        <label>Global Supply Chain</label>
+    </customValue>
+    <customValue>
+        <fullName>Greece</fullName>
+        <default>false</default>
+        <label>Greece</label>
+    </customValue>
+    <customValue>
+        <fullName>Grenoble</fullName>
+        <default>false</default>
+        <label>Grenoble</label>
+    </customValue>
+    <customValue>
+        <fullName>Hong Kong</fullName>
+        <default>false</default>
+        <label>Hong Kong</label>
+    </customValue>
+    <customValue>
+        <fullName>Human Resources</fullName>
+        <default>false</default>
+        <label>Human Resources</label>
+    </customValue>
+    <customValue>
+        <fullName>Hungary</fullName>
+        <default>false</default>
+        <label>Hungary</label>
+    </customValue>
+    <customValue>
+        <fullName>Hyderabad</fullName>
+        <default>false</default>
+        <label>Hyderabad</label>
+    </customValue>
+    <customValue>
+        <fullName>Iberia</fullName>
+        <default>false</default>
+        <label>Iberia</label>
+    </customValue>
+    <customValue>
+        <fullName>IDC - France</fullName>
+        <default>false</default>
+        <label>IDC - France</label>
+    </customValue>
+    <customValue>
+        <fullName>IDC – USA</fullName>
+        <default>false</default>
+        <label>IDC – USA</label>
+    </customValue>
+    <customValue>
+        <fullName>India</fullName>
+        <default>false</default>
+        <label>India</label>
+    </customValue>
+    <customValue>
+        <fullName>Information Systems</fullName>
+        <default>false</default>
+        <label>Information Systems</label>
+    </customValue>
+    <customValue>
+        <fullName>Italy</fullName>
+        <default>false</default>
+        <label>Italy</label>
+    </customValue>
+    <customValue>
+        <fullName>Japan</fullName>
+        <default>false</default>
+        <label>Japan</label>
+    </customValue>
+    <customValue>
+        <fullName>Kenya</fullName>
+        <default>false</default>
+        <label>Kenya</label>
+    </customValue>
+    <customValue>
+        <fullName>LaBalme</fullName>
+        <default>false</default>
+        <label>LaBalme</label>
+    </customValue>
+    <customValue>
+        <fullName>Lombard</fullName>
+        <default>false</default>
+        <label>Lombard</label>
+    </customValue>
+    <customValue>
+        <fullName>Marcy</fullName>
+        <default>false</default>
+        <label>Marcy</label>
+    </customValue>
+    <customValue>
+        <fullName>Master Data Management</fullName>
+        <default>false</default>
+        <label>Master Data Management</label>
+    </customValue>
+    <customValue>
+        <fullName>Medical Affairs</fullName>
+        <default>false</default>
+        <label>Medical Affairs</label>
+    </customValue>
+    <customValue>
+        <fullName>METER</fullName>
+        <default>false</default>
+        <label>METER</label>
+    </customValue>
+    <customValue>
+        <fullName>Mexico</fullName>
+        <default>false</default>
+        <label>Mexico</label>
+    </customValue>
+    <customValue>
+        <fullName>Nigeria</fullName>
+        <default>false</default>
+        <label>Nigeria</label>
+    </customValue>
+    <customValue>
+        <fullName>Nordics</fullName>
+        <default>false</default>
+        <label>Nordics</label>
+    </customValue>
+    <customValue>
+        <fullName>Philadelphia</fullName>
+        <default>false</default>
+        <label>Philadelphia</label>
+    </customValue>
+    <customValue>
+        <fullName>Poland</fullName>
+        <default>false</default>
+        <label>Poland</label>
+    </customValue>
+    <customValue>
+        <fullName>Portugal</fullName>
+        <default>false</default>
+        <label>Portugal</label>
+    </customValue>
+    <customValue>
+        <fullName>Purchasing</fullName>
+        <default>false</default>
+        <label>Purchasing</label>
+    </customValue>
+    <customValue>
+        <fullName>Quality Post-Market</fullName>
+        <default>false</default>
+        <label>Quality Post-Market</label>
+    </customValue>
+    <customValue>
+        <fullName>Quality Pre-Market</fullName>
+        <default>false</default>
+        <label>Quality Pre-Market</label>
+    </customValue>
+    <customValue>
+        <fullName>Regulatory &amp; Quality Compliance</fullName>
+        <default>false</default>
+        <label>Regulatory &amp; Quality Compliance</label>
+    </customValue>
+    <customValue>
+        <fullName>Regulatory Affairs</fullName>
+        <default>false</default>
+        <label>Regulatory Affairs</label>
+    </customValue>
+    <customValue>
+        <fullName>Research &amp; Development</fullName>
+        <default>false</default>
+        <label>Research &amp; Development</label>
+    </customValue>
+    <customValue>
+        <fullName>Rio de Janeiro</fullName>
+        <default>false</default>
+        <label>Rio de Janeiro</label>
+    </customValue>
+    <customValue>
+        <fullName>Russia</fullName>
+        <default>false</default>
+        <label>Russia</label>
+    </customValue>
+    <customValue>
+        <fullName>Salt Lake City (Biofire Defense)</fullName>
+        <default>false</default>
+        <label>Salt Lake City (Biofire Defense)</label>
+    </customValue>
+    <customValue>
+        <fullName>Salt Lake City (Biofire Diagnostics)</fullName>
+        <default>false</default>
+        <label>Salt Lake City (Biofire Diagnostics)</label>
+    </customValue>
+    <customValue>
+        <fullName>San Diego</fullName>
+        <default>false</default>
+        <label>San Diego</label>
+    </customValue>
+    <customValue>
+        <fullName>San Jose</fullName>
+        <default>false</default>
+        <label>San Jose</label>
+    </customValue>
+    <customValue>
+        <fullName>Serbia</fullName>
+        <default>false</default>
+        <label>Serbia</label>
+    </customValue>
+    <customValue>
+        <fullName>Singapore</fullName>
+        <default>false</default>
+        <label>Singapore</label>
+    </customValue>
+    <customValue>
+        <fullName>South Africa</fullName>
+        <default>false</default>
+        <label>South Africa</label>
+    </customValue>
+    <customValue>
+        <fullName>South Korea</fullName>
+        <default>false</default>
+        <label>South Korea</label>
+    </customValue>
+    <customValue>
+        <fullName>Spain</fullName>
+        <default>false</default>
+        <label>Spain</label>
+    </customValue>
+    <customValue>
+        <fullName>SSC Europe</fullName>
+        <default>false</default>
+        <label>SSC Europe</label>
+    </customValue>
+    <customValue>
+        <fullName>SSC LATAM</fullName>
+        <default>false</default>
+        <label>SSC LATAM</label>
+    </customValue>
+    <customValue>
+        <fullName>St. Louis</fullName>
+        <default>false</default>
+        <label>St. Louis</label>
+    </customValue>
+    <customValue>
+        <fullName>Switzerland</fullName>
+        <default>false</default>
+        <label>Switzerland</label>
+    </customValue>
+    <customValue>
+        <fullName>Sydney BTF</fullName>
+        <default>false</default>
+        <label>Sydney BTF</label>
+    </customValue>
+    <customValue>
+        <fullName>Thailand</fullName>
+        <default>false</default>
+        <label>Thailand</label>
+    </customValue>
+    <customValue>
+        <fullName>Third Party Products</fullName>
+        <default>false</default>
+        <label>Third Party Products</label>
+    </customValue>
+    <customValue>
+        <fullName>Trade Compliance</fullName>
+        <default>false</default>
+        <label>Trade Compliance</label>
+    </customValue>
+    <customValue>
+        <fullName>Tres Cantos</fullName>
+        <default>false</default>
+        <label>Tres Cantos</label>
+    </customValue>
+    <customValue>
+        <fullName>Turkey</fullName>
+        <default>false</default>
+        <label>Turkey</label>
+    </customValue>
+    <customValue>
+        <fullName>UKI</fullName>
+        <default>false</default>
+        <label>UKI</label>
+    </customValue>
+    <customValue>
+        <fullName>United Kingdom</fullName>
+        <default>false</default>
+        <label>United Kingdom</label>
+    </customValue>
+    <customValue>
+        <fullName>USA</fullName>
+        <default>false</default>
+        <label>USA</label>
+    </customValue>
+    <customValue>
+        <fullName>Verniolle</fullName>
+        <default>false</default>
+        <label>Verniolle</label>
+    </customValue>
+    <customValue>
+        <fullName>Sydney</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Sydney</label>
+    </customValue>
+    <customValue>
+        <fullName>Bernried</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Bernried</label>
+    </customValue>
+    <customValue>
+        <fullName>bioFire</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>bioFire</label>
+    </customValue>
+    <customValue>
+        <fullName>bioMerieux, Inc</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>bioMerieux, Inc</label>
+    </customValue>
+    <customValue>
+        <fullName>bioMerieux, SA</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>bioMerieux, SA</label>
+    </customValue>
+    <customValue>
+        <fullName>Kerlann</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Kerlann</label>
+    </customValue>
+    <customValue>
+        <fullName>SLC (Murray)</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>SLC (Murray)</label>
+    </customValue>
+    <customValue>
+        <fullName>Finland</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Finland</label>
+    </customValue>
+    <customValue>
+        <fullName>Invisible Sentinel</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Invisible Sentinel</label>
+    </customValue>
+    <customValue>
+        <fullName>NA ComOps</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>NA ComOps</label>
+    </customValue>
+    <customValue>
+        <fullName>NEC</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>NEC</label>
+    </customValue>
+    <customValue>
+        <fullName>IDC - USA</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>IDC - USA</label>
+    </customValue>
+    <customValue>
+        <fullName>Denmark</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Denmark</label>
+    </customValue>
+    <description>Origination location created from change control</description>
+    <masterLabel>Origination Location</masterLabel>
+    <sorted>true</sorted>
+</GlobalValueSet>

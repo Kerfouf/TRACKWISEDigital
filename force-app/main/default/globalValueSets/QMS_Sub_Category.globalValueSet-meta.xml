@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Actions in response to nonconforming product detected after delivery</fullName>
+        <default>false</default>
+        <label>Actions in response to nonconforming product detected after delivery</label>
+    </customValue>
+    <customValue>
+        <fullName>Actions in response to nonconforming product detected before delivery</fullName>
+        <default>false</default>
+        <label>Actions in response to nonconforming product detected before delivery</label>
+    </customValue>
+    <customValue>
+        <fullName>Analysis of data</fullName>
+        <default>false</default>
+        <label>Analysis of data</label>
+    </customValue>
+    <customValue>
+        <fullName>Cleanliness of product</fullName>
+        <default>false</default>
+        <label>Cleanliness of product</label>
+    </customValue>
+    <customValue>
+        <fullName>Communication to customer</fullName>
+        <default>false</default>
+        <label>Communication to customer</label>
+    </customValue>
+    <customValue>
+        <fullName>Complaint handling</fullName>
+        <default>false</default>
+        <label>Complaint handling</label>
+    </customValue>
+    <customValue>
+        <fullName>Contamination control</fullName>
+        <default>false</default>
+        <label>Contamination control</label>
+    </customValue>
+    <customValue>
+        <fullName>Control of design and development changes</fullName>
+        <default>false</default>
+        <label>Control of design and development changes</label>
+    </customValue>
+    <customValue>
+        <fullName>Control of documents</fullName>
+        <default>false</default>
+        <label>Control of documents</label>
+    </customValue>
+    <customValue>
+        <fullName>Control of monitoring and measuring equipment</fullName>
+        <default>false</default>
+        <label>Control of monitoring and measuring equipment</label>
+    </customValue>
+    <customValue>
+        <fullName>Control of records</fullName>
+        <default>false</default>
+        <label>Control of records</label>
+    </customValue>
+    <customValue>
+        <fullName>Corrective Action</fullName>
+        <default>false</default>
+        <label>Corrective Action</label>
+    </customValue>
+    <customValue>
+        <fullName>Customer focus</fullName>
+        <default>false</default>
+        <label>Customer focus</label>
+    </customValue>
+    <customValue>
+        <fullName>Customer property</fullName>
+        <default>false</default>
+        <label>Customer property</label>
+    </customValue>
+    <customValue>
+        <fullName>Design and development files</fullName>
+        <default>false</default>
+        <label>Design and development files</label>
+    </customValue>
+    <customValue>
+        <fullName>Design and development inputs</fullName>
+        <default>false</default>
+        <label>Design and development inputs</label>
+    </customValue>
+    <customValue>
+        <fullName>Design and development outputs</fullName>
+        <default>false</default>
+        <label>Design and development outputs</label>
+    </customValue>
+    <customValue>
+        <fullName>Design and development planning</fullName>
+        <default>false</default>
+        <label>Design and development planning</label>
+    </customValue>
+    <customValue>
+        <fullName>Design and development procedures</fullName>
+        <default>false</default>
+        <label>Design and development procedures</label>
+    </customValue>
+    <customValue>
+        <fullName>Design and development review</fullName>
+        <default>false</default>
+        <label>Design and development review</label>
+    </customValue>
+    <customValue>
+        <fullName>Design and development transfer</fullName>
+        <default>false</default>
+        <label>Design and development transfer</label>
+    </customValue>
+    <customValue>
+        <fullName>Design and development validation</fullName>
+        <default>false</default>
+        <label>Design and development validation</label>
+    </customValue>
+    <customValue>
+        <fullName>Design and development verification</fullName>
+        <default>false</default>
+        <label>Design and development verification</label>
+    </customValue>
+    <customValue>
+        <fullName>Determination of regulatory and customer requirements related to product</fullName>
+        <default>false</default>
+        <label>Determination of regulatory and customer requirements related to product</label>
+    </customValue>
+    <customValue>
+        <fullName>Feedback</fullName>
+        <default>false</default>
+        <label>Feedback</label>
+    </customValue>
+    <customValue>
+        <fullName>General documentation requirements</fullName>
+        <default>false</default>
+        <label>General documentation requirements</label>
+    </customValue>
+    <customValue>
+        <fullName>Human resources</fullName>
+        <default>false</default>
+        <label>Human resources</label>
+    </customValue>
+    <customValue>
+        <fullName>Identification</fullName>
+        <default>false</default>
+        <label>Identification</label>
+    </customValue>
+    <customValue>
+        <fullName>Infrastructure</fullName>
+        <default>false</default>
+        <label>Infrastructure</label>
+    </customValue>
+    <customValue>
+        <fullName>Internal audit</fullName>
+        <default>false</default>
+        <label>Internal audit</label>
+    </customValue>
+    <customValue>
+        <fullName>Internal Communication</fullName>
+        <default>false</default>
+        <label>Internal Communication</label>
+    </customValue>
+    <customValue>
+        <fullName>Management commitment</fullName>
+        <default>false</default>
+        <label>Management commitment</label>
+    </customValue>
+    <customValue>
+        <fullName>Management representative</fullName>
+        <default>false</default>
+        <label>Management representative</label>
+    </customValue>
+    <customValue>
+        <fullName>Management review inputs</fullName>
+        <default>false</default>
+        <label>Management review inputs</label>
+    </customValue>
+    <customValue>
+        <fullName>Management review outputs</fullName>
+        <default>false</default>
+        <label>Management review outputs</label>
+    </customValue>
+    <customValue>
+        <fullName>Management review process</fullName>
+        <default>false</default>
+        <label>Management review process</label>
+    </customValue>
+    <customValue>
+        <fullName>Medical device file</fullName>
+        <default>false</default>
+        <label>Medical device file</label>
+    </customValue>
+    <customValue>
+        <fullName>Medical Device Installation activities</fullName>
+        <default>false</default>
+        <label>Medical Device Installation activities</label>
+    </customValue>
+    <customValue>
+        <fullName>Monitoring and measurement of processes</fullName>
+        <default>false</default>
+        <label>Monitoring and measurement of processes</label>
+    </customValue>
+    <customValue>
+        <fullName>Monitoring and measurement of product</fullName>
+        <default>false</default>
+        <label>Monitoring and measurement of product</label>
+    </customValue>
+    <customValue>
+        <fullName>Nonconforming product procedure</fullName>
+        <default>false</default>
+        <label>Nonconforming product procedure</label>
+    </customValue>
+    <customValue>
+        <fullName>Outsourced process</fullName>
+        <default>false</default>
+        <label>Outsourced process</label>
+    </customValue>
+    <customValue>
+        <fullName>Particular requirements for sterile medical devices</fullName>
+        <default>false</default>
+        <label>Particular requirements for sterile medical devices</label>
+    </customValue>
+    <customValue>
+        <fullName>Planning and Implementation</fullName>
+        <default>false</default>
+        <label>Planning and Implementation</label>
+    </customValue>
+    <customValue>
+        <fullName>Planning of product realization</fullName>
+        <default>false</default>
+        <label>Planning of product realization</label>
+    </customValue>
+    <customValue>
+        <fullName>Preservation of product</fullName>
+        <default>false</default>
+        <label>Preservation of product</label>
+    </customValue>
+    <customValue>
+        <fullName>Preventive Action</fullName>
+        <default>false</default>
+        <label>Preventive Action</label>
+    </customValue>
+    <customValue>
+        <fullName>Process definition and implementation</fullName>
+        <default>false</default>
+        <label>Process definition and implementation</label>
+    </customValue>
+    <customValue>
+        <fullName>Process monitoring and effectiveness</fullName>
+        <default>false</default>
+        <label>Process monitoring and effectiveness</label>
+    </customValue>
+    <customValue>
+        <fullName>Product, production and quality process changes</fullName>
+        <default>false</default>
+        <label>Product, production and quality process changes</label>
+    </customValue>
+    <customValue>
+        <fullName>Production general requirements</fullName>
+        <default>false</default>
+        <label>Production general requirements</label>
+    </customValue>
+    <customValue>
+        <fullName>Provision of resources</fullName>
+        <default>false</default>
+        <label>Provision of resources</label>
+    </customValue>
+    <customValue>
+        <fullName>Purchasing information</fullName>
+        <default>false</default>
+        <label>Purchasing information</label>
+    </customValue>
+    <customValue>
+        <fullName>Purchasing procedures</fullName>
+        <default>false</default>
+        <label>Purchasing procedures</label>
+    </customValue>
+    <customValue>
+        <fullName>QMS change control</fullName>
+        <default>false</default>
+        <label>QMS change control</label>
+    </customValue>
+    <customValue>
+        <fullName>QMS implementation and maintenance</fullName>
+        <default>false</default>
+        <label>QMS implementation and maintenance</label>
+    </customValue>
+    <customValue>
+        <fullName>QMS planning</fullName>
+        <default>false</default>
+        <label>QMS planning</label>
+    </customValue>
+    <customValue>
+        <fullName>QMS software validation</fullName>
+        <default>false</default>
+        <label>QMS software validation</label>
+    </customValue>
+    <customValue>
+        <fullName>Quality Manual</fullName>
+        <default>false</default>
+        <label>Quality Manual</label>
+    </customValue>
+    <customValue>
+        <fullName>Quality objectives</fullName>
+        <default>false</default>
+        <label>Quality objectives</label>
+    </customValue>
+    <customValue>
+        <fullName>Quality policy</fullName>
+        <default>false</default>
+        <label>Quality policy</label>
+    </customValue>
+    <customValue>
+        <fullName>Reporting to regulatory authorities</fullName>
+        <default>false</default>
+        <label>Reporting to regulatory authorities</label>
+    </customValue>
+    <customValue>
+        <fullName>Responsibility and authority</fullName>
+        <default>false</default>
+        <label>Responsibility and authority</label>
+    </customValue>
+    <customValue>
+        <fullName>Review of regulatory and customer requirements related to product</fullName>
+        <default>false</default>
+        <label>Review of regulatory and customer requirements related to product</label>
+    </customValue>
+    <customValue>
+        <fullName>Rework</fullName>
+        <default>false</default>
+        <label>Rework</label>
+    </customValue>
+    <customValue>
+        <fullName>Servicing activities</fullName>
+        <default>false</default>
+        <label>Servicing activities</label>
+    </customValue>
+    <customValue>
+        <fullName>Traceability</fullName>
+        <default>false</default>
+        <label>Traceability</label>
+    </customValue>
+    <customValue>
+        <fullName>Validation of processes for production and service provision</fullName>
+        <default>false</default>
+        <label>Validation of processes for production and service provision</label>
+    </customValue>
+    <customValue>
+        <fullName>Validation of processes for sterilization and sterile barrier systems</fullName>
+        <default>false</default>
+        <label>Validation of processes for sterilization and sterile barrier systems</label>
+    </customValue>
+    <customValue>
+        <fullName>Verification of purchased product</fullName>
+        <default>false</default>
+        <label>Verification of purchased product</label>
+    </customValue>
+    <customValue>
+        <fullName>Work environment</fullName>
+        <default>false</default>
+        <label>Work environment</label>
+    </customValue>
+    <masterLabel>QMS Sub-Category</masterLabel>
+    <sorted>true</sorted>
+</GlobalValueSet>

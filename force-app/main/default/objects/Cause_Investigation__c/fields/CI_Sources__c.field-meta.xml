@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CI_Sources__c</fullName>
+    <externalId>false</externalId>
+    <label>CI Sources</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Quality Event</fullName>
+                <default>false</default>
+                <label>Quality Event</label>
+            </value>
+            <value>
+                <fullName>Complaint Investigation</fullName>
+                <default>false</default>
+                <label>Complaint Investigation</label>
+            </value>
+            <value>
+                <fullName>Non-Effective CAPA</fullName>
+                <default>false</default>
+                <label>Non-Effective CAPA</label>
+            </value>
+            <value>
+                <fullName>Audit Finding</fullName>
+                <default>false</default>
+                <label>Audit Finding</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

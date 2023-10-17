@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Process_es__c</fullName>
+    <externalId>false</externalId>
+    <label>Process(es)</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>000284 - Provide and Optimize the Information System</fullName>
+                <default>false</default>
+                <label>000284 - Provide and Optimize the Information System</label>
+            </value>
+            <value>
+                <fullName>000774 - Market and Sell Products and Services</fullName>
+                <default>false</default>
+                <label>000774 - Market and Sell Products and Services</label>
+            </value>
+            <value>
+                <fullName>004547 - Deliver and Services and Provide Customer Care</fullName>
+                <default>false</default>
+                <label>004547 - Deliver and Services and Provide Customer Care</label>
+            </value>
+            <value>
+                <fullName>005130 - Innovate Source Develop and Optimize Products and Services</fullName>
+                <default>false</default>
+                <label>005130 - Innovate Source Develop and Optimize Products and Services</label>
+            </value>
+            <value>
+                <fullName>006173 - Plan Procure Produce and Deliver Products</fullName>
+                <default>false</default>
+                <label>006173 - Plan Procure Produce and Deliver Products</label>
+            </value>
+            <value>
+                <fullName>008540 - Develop and Provide HSE and Quality Systems</fullName>
+                <default>false</default>
+                <label>008540 - Develop and Provide HSE and Quality Systems</label>
+            </value>
+            <value>
+                <fullName>017784 - Plan and Optimize Workforce</fullName>
+                <default>false</default>
+                <label>017784 - Plan and Optimize Workforce</label>
+            </value>
+            <value>
+                <fullName>053481 - Assess Risks and Opportunities</fullName>
+                <default>false</default>
+                <label>053481 - Assess Risks and Opportunities</label>
+            </value>
+            <value>
+                <fullName>053529 - Manage Finance</fullName>
+                <default>false</default>
+                <label>053529 - Manage Finance</label>
+            </value>
+            <value>
+                <fullName>053530 - Monitor Company Performance</fullName>
+                <default>false</default>
+                <label>053530 - Monitor Company Performance</label>
+            </value>
+            <value>
+                <fullName>054588 - Define and Drive Strategy</fullName>
+                <default>false</default>
+                <label>054588 - Define and Drive Strategy</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

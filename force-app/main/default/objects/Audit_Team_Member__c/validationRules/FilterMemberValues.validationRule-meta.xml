@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FilterMemberValues</fullName>
+    <active>false</active>
+    <errorConditionFormula>IF(OR(INCLUDES(Member__r.TWD_Role__c, &quot;Audit Coordinator&quot;),INCLUDES(Member__r.TWD_Role__c, &quot;Audit Coordinator&quot;),Member__c=&apos;&apos;),false,true)</errorConditionFormula>
+    <errorDisplayField>Member__c</errorDisplayField>
+    <errorMessage>Member should be user with TWD role = Audit Coordinator” or “Audit Participant”.</errorMessage>
+</ValidationRule>

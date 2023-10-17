@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Limit_Assignee</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+    !ISBLANK(Assigned_To__c), 
+    NOT(
+        OR(
+            INCLUDES(Assigned_To__r.TWD_Role__c, &apos;Audit Participant&apos;),
+            INCLUDES(Assigned_To__r.TWD_Role__c, &apos;Audit Coordinator&apos;),
+            INCLUDES(Assigned_To__r.TWD_Role__c, &apos;Audit Finding Assignee&apos;)
+        )
+    )
+)</errorConditionFormula>
+    <errorMessage>This &apos;Assigned to&apos; field requires a User with the Audit Finding Assignee, Audit Coordinator or Audit  Participant role</errorMessage>
+</ValidationRule>

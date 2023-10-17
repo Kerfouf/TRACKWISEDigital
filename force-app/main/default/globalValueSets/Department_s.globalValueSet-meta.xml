@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Calibration</fullName>
+        <default>false</default>
+        <label>Calibration</label>
+    </customValue>
+    <customValue>
+        <fullName>Clinical Affairs</fullName>
+        <default>false</default>
+        <label>Clinical Affairs</label>
+    </customValue>
+    <customValue>
+        <fullName>Clinical Investigation</fullName>
+        <default>false</default>
+        <label>Clinical Investigation</label>
+    </customValue>
+    <customValue>
+        <fullName>Customer Service - Global</fullName>
+        <default>false</default>
+        <label>Customer Service - Global</label>
+    </customValue>
+    <customValue>
+        <fullName>Customer Service</fullName>
+        <default>false</default>
+        <label>Customer Service - Local</label>
+    </customValue>
+    <customValue>
+        <fullName>Customer Supply</fullName>
+        <default>false</default>
+        <label>Customer Supply</label>
+    </customValue>
+    <customValue>
+        <fullName>DCA (Document Control Authority)</fullName>
+        <default>false</default>
+        <label>DCA (Document Control Authority)</label>
+    </customValue>
+    <customValue>
+        <fullName>Engineering</fullName>
+        <default>false</default>
+        <label>Engineering</label>
+    </customValue>
+    <customValue>
+        <fullName>Facilities</fullName>
+        <default>false</default>
+        <label>Facilities</label>
+    </customValue>
+    <customValue>
+        <fullName>Field Service</fullName>
+        <default>false</default>
+        <label>Field Service</label>
+    </customValue>
+    <customValue>
+        <fullName>General Management</fullName>
+        <default>false</default>
+        <label>General Management</label>
+    </customValue>
+    <customValue>
+        <fullName>GiCS (Global Industry Customer Service)</fullName>
+        <default>false</default>
+        <label>GiCS (Global Industry Customer Service)</label>
+    </customValue>
+    <customValue>
+        <fullName>Global Supply Chain QA</fullName>
+        <default>false</default>
+        <label>Global Supply Chain QA</label>
+    </customValue>
+    <customValue>
+        <fullName>Health Safety Environment (HSE)</fullName>
+        <default>false</default>
+        <label>Health Safety Environment (HSE)</label>
+    </customValue>
+    <customValue>
+        <fullName>Human Resources</fullName>
+        <default>false</default>
+        <label>Human Resources</label>
+    </customValue>
+    <customValue>
+        <fullName>Industrialization</fullName>
+        <default>false</default>
+        <label>Industrialization</label>
+    </customValue>
+    <customValue>
+        <fullName>Information Systems</fullName>
+        <default>false</default>
+        <label>Information Systems</label>
+    </customValue>
+    <customValue>
+        <fullName>Instrument Management</fullName>
+        <default>false</default>
+        <label>Instrument Management</label>
+    </customValue>
+    <customValue>
+        <fullName>Instrument R&amp;D</fullName>
+        <default>false</default>
+        <label>Instrument R&amp;D</label>
+    </customValue>
+    <customValue>
+        <fullName>Instrument Refurbishment Center</fullName>
+        <default>false</default>
+        <label>Instrument Refurbishment Center</label>
+    </customValue>
+    <customValue>
+        <fullName>Instrument RMA</fullName>
+        <default>false</default>
+        <label>Instrument RMA</label>
+    </customValue>
+    <customValue>
+        <fullName>LIMS</fullName>
+        <default>false</default>
+        <label>LIMS</label>
+    </customValue>
+    <customValue>
+        <fullName>Logistics</fullName>
+        <default>false</default>
+        <label>Logistics</label>
+    </customValue>
+    <customValue>
+        <fullName>Maintenance and Reliability</fullName>
+        <default>false</default>
+        <label>Maintenance and Reliability</label>
+    </customValue>
+    <customValue>
+        <fullName>Marketing</fullName>
+        <default>false</default>
+        <label>Marketing</label>
+    </customValue>
+    <customValue>
+        <fullName>Medical Affairs</fullName>
+        <default>false</default>
+        <label>Medical Affairs</label>
+    </customValue>
+    <customValue>
+        <fullName>MFG (Infrastructure)</fullName>
+        <default>false</default>
+        <label>MFG (Infrastructure)</label>
+    </customValue>
+    <customValue>
+        <fullName>MFG (Instrument)</fullName>
+        <default>false</default>
+        <label>MFG (Instrument)</label>
+    </customValue>
+    <customValue>
+        <fullName>MFG (Reagents)</fullName>
+        <default>false</default>
+        <label>MFG (Reagents)</label>
+    </customValue>
+    <customValue>
+        <fullName>No Department Investigation</fullName>
+        <default>false</default>
+        <label>No Department Investigation</label>
+    </customValue>
+    <customValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </customValue>
+    <customValue>
+        <fullName>Packaging</fullName>
+        <default>false</default>
+        <label>Packaging</label>
+    </customValue>
+    <customValue>
+        <fullName>PL&amp;D</fullName>
+        <default>false</default>
+        <label>PL&amp;D</label>
+    </customValue>
+    <customValue>
+        <fullName>Pouch RMA</fullName>
+        <default>false</default>
+        <label>Pouch RMA</label>
+    </customValue>
+    <customValue>
+        <fullName>Product Validation</fullName>
+        <default>false</default>
+        <label>Product Validation</label>
+    </customValue>
+    <customValue>
+        <fullName>Purchasing</fullName>
+        <default>false</default>
+        <label>Purchasing</label>
+    </customValue>
+    <customValue>
+        <fullName>QA R&amp;D</fullName>
+        <default>false</default>
+        <label>QA R&amp;D</label>
+    </customValue>
+    <customValue>
+        <fullName>QE Validation</fullName>
+        <default>false</default>
+        <label>QE Validation</label>
+    </customValue>
+    <customValue>
+        <fullName>Quality Assurance/ QMS</fullName>
+        <default>false</default>
+        <label>Quality Assurance/ QMS</label>
+    </customValue>
+    <customValue>
+        <fullName>Quality Control,</fullName>
+        <default>false</default>
+        <label>Quality Control</label>
+    </customValue>
+    <customValue>
+        <fullName>Reagent R&amp;D</fullName>
+        <default>false</default>
+        <label>Reagent R&amp;D</label>
+    </customValue>
+    <customValue>
+        <fullName>Regulatory Affairs</fullName>
+        <default>false</default>
+        <label>Regulatory Affairs</label>
+    </customValue>
+    <customValue>
+        <fullName>Regulatory Quality Compliance</fullName>
+        <default>false</default>
+        <label>Regulatory Quality Compliance</label>
+    </customValue>
+    <customValue>
+        <fullName>Sales</fullName>
+        <default>false</default>
+        <label>Sales</label>
+    </customValue>
+    <customValue>
+        <fullName>Sales Administration</fullName>
+        <default>false</default>
+        <label>Sales Administration</label>
+    </customValue>
+    <customValue>
+        <fullName>Service Share Center</fullName>
+        <default>false</default>
+        <label>Service Share Center</label>
+    </customValue>
+    <customValue>
+        <fullName>Supplier QA</fullName>
+        <default>false</default>
+        <label>Supplier QA</label>
+    </customValue>
+    <customValue>
+        <fullName>Supply Chain</fullName>
+        <default>false</default>
+        <label>Supply Chain</label>
+    </customValue>
+    <customValue>
+        <fullName>System Development</fullName>
+        <default>false</default>
+        <label>System Development</label>
+    </customValue>
+    <customValue>
+        <fullName>System R&amp;D</fullName>
+        <default>false</default>
+        <label>System R&amp;D</label>
+    </customValue>
+    <customValue>
+        <fullName>Technical Support</fullName>
+        <default>false</default>
+        <label>Technical Support</label>
+    </customValue>
+    <customValue>
+        <fullName>Third Party Products QA</fullName>
+        <default>false</default>
+        <label>Third Party Products QA</label>
+    </customValue>
+    <customValue>
+        <fullName>Training</fullName>
+        <default>false</default>
+        <label>Training</label>
+    </customValue>
+    <customValue>
+        <fullName>GCIX</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>GCIX (Testing 12345678)</label>
+    </customValue>
+    <customValue>
+        <fullName>GiCS (Global Industry Customer Service</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>GiCS (Global Industry Customer Service</label>
+    </customValue>
+    <customValue>
+        <fullName>Other with mandatory field to specify</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Other with mandatory field to specify</label>
+    </customValue>
+    <description>Departments from change control picklist</description>
+    <masterLabel>Department(s)</masterLabel>
+    <sorted>true</sorted>
+</GlobalValueSet>

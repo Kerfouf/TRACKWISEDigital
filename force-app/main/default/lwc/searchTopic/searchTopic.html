@@ -1,0 +1,61 @@
+<template>
+    <!-- Add a conditional rendering wrapper for the entire component -->
+    <div class="slds-box">
+    <template if:false={topicSelected}>
+        <div class="slds-box">
+            <h1 class="slds-text-heading_large">Add a Topic</h1>
+            <!-- Search input bar -->
+            <lightning-input label="Search Topic:" value={searchTerm} onchange={handleSearchChange}></lightning-input>
+            <lightning-button label="Search" onclick={searchTopics}></lightning-button>
+
+            <!-- Display search results -->
+            <template if:true={showTopics}>
+                <h2 class="slds-text-heading_medium">Select a Topic</h2>
+                <ul>
+                    <template for:each={searchResults} for:item="result">
+                        <li key={result.Id}>
+                            <label>
+                                <input type="radio" name="topicRadio" value={result.Id} onchange={handleTopicChange} />
+                                <span>{result.Name}</span>
+                            </label>
+                        </li>
+                    </template>
+                </ul>
+                <lightning-button label="Next" variant="brand" onclick={navigateToSources} disabled={isNextButtonDisabled}></lightning-button>
+            </template>
+            
+            <!-- Error message section -->
+            <template if:true={errorMessage}>
+                <p class="slds-text-color_error">{errorMessage}</p>
+            </template>
+        </div>
+    </template>
+
+    <!-- Conditional rendering for "Select Topic" and "Select Sources" sections -->
+    <template if:true={topicSelected}>
+        <template if:true={showSources}>
+            <h2 class="slds-text-heading_medium">Select Sources</h2>
+            <ul>
+                <template for:each={sources} for:item="source">
+                    <li key={source.Id}>
+                        <label>
+                            <input type="checkbox" name={source.Id} onchange={handleSourceChange} />
+                            <span>{source.Name}</span>
+                        </label>
+                    </li>
+                </template>
+            </ul>
+            <lightning-button label="Next" variant="brand" onclick={navigateToNext}></lightning-button>
+        </template>
+    </template>
+
+    <!-- Conditional rendering for the data table section -->
+    <template if:true={showDataTable}>
+        <c-topic-data-table chapter-list={chapterList}></c-topic-data-table>
+    </template>
+    <div class="slds-modal__footer">
+        <lightning-button label="Cancel" variant="neutral" onclick={cancelAction}></lightning-button>
+    </div>
+</div>
+    <div class={modalBackdropClass}></div>
+</template>

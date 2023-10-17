@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Quality_Event_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Quality Event Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Audit</fullName>
+                <default>false</default>
+                <label>Audit</label>
+            </value>
+            <value>
+                <fullName>Audit Finding - Customer</fullName>
+                <default>false</default>
+                <label>Audit Finding - Customer</label>
+            </value>
+            <value>
+                <fullName>Audit Finding - ISO/MDSAP</fullName>
+                <default>false</default>
+                <label>Audit Finding - ISO/MDSAP</label>
+            </value>
+            <value>
+                <fullName>Audit Finding - Regulatory Authority</fullName>
+                <default>false</default>
+                <label>Audit Finding - Regulatory Authority</label>
+            </value>
+            <value>
+                <fullName>In-Process Event / Line Throw Off</fullName>
+                <default>false</default>
+                <label>In-Process Event / Line Throw Off</label>
+            </value>
+            <value>
+                <fullName>Other QMS Event</fullName>
+                <default>false</default>
+                <label>Other QMS Event</label>
+            </value>
+            <value>
+                <fullName>Out of Tolerance</fullName>
+                <default>false</default>
+                <label>Out of Tolerance</label>
+            </value>
+            <value>
+                <fullName>Process Nonconformity</fullName>
+                <default>false</default>
+                <label>Process Nonconformity</label>
+            </value>
+            <value>
+                <fullName>Product Nonconformity</fullName>
+                <default>false</default>
+                <label>Product Nonconformity</label>
+            </value>
+            <value>
+                <fullName>QC Investigation - EM</fullName>
+                <default>false</default>
+                <label>QC Investigation - EM</label>
+            </value>
+            <value>
+                <fullName>QC Investigation - Invalid</fullName>
+                <default>false</default>
+                <label>QC Investigation - Invalid</label>
+            </value>
+            <value>
+                <fullName>QC Investigation - Other</fullName>
+                <default>false</default>
+                <label>QC Investigation - Other</label>
+            </value>
+            <value>
+                <fullName>QC Investigation - Out of Specification</fullName>
+                <default>false</default>
+                <label>QC Investigation - Out of Specification</label>
+            </value>
+            <value>
+                <fullName>QC Investigation - Out of Trend</fullName>
+                <default>false</default>
+                <label>QC Investigation - Out of Trend</label>
+            </value>
+            <value>
+                <fullName>QC Investigation - Stability</fullName>
+                <default>false</default>
+                <label>QC Investigation - Stability</label>
+            </value>
+            <value>
+                <fullName>Unfavorable Trend</fullName>
+                <default>false</default>
+                <label>Unfavorable Trend</label>
+            </value>
+            <value>
+                <fullName>Waiver</fullName>
+                <default>false</default>
+                <label>Waiver</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

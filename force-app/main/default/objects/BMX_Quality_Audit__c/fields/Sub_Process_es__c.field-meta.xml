@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sub_Process_es__c</fullName>
+    <externalId>false</externalId>
+    <label>Sub-Process(es)</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>SP1,</fullName>
+                <default>false</default>
+                <label>SP1,</label>
+            </value>
+            <value>
+                <fullName>SP2,</fullName>
+                <default>false</default>
+                <label>SP2,</label>
+            </value>
+            <value>
+                <fullName>SP3,</fullName>
+                <default>false</default>
+                <label>SP3,</label>
+            </value>
+            <value>
+                <fullName>SP4</fullName>
+                <default>false</default>
+                <label>SP4</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

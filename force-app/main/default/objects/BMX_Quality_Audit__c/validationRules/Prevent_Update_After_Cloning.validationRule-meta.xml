@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Prevent_Update_After_Cloning</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+    NOT(ISNEW()),
+    CMPL123_WF_Status__c = &apos;Initiated&apos;,
+    NOT(Audit_Schedule__r.CMPL123_WF_Status__c = &apos;Audit Schedule Definition&apos;),
+    Audit_Schedule__r.CMPL123_WF_Action__c &lt;&gt; &apos;Send for Approval&apos;
+)</errorConditionFormula>
+    <errorDisplayField>Audit_Schedule__c</errorDisplayField>
+    <errorMessage>This Audit Schedule is on going, please revise it or change the parent Schedule number</errorMessage>
+</ValidationRule>

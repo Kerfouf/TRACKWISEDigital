@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Audit_Schedule_Numberc</fullName>
+    <availability>online</availability>
+    <description>This button was created by TrackWise Digital to check the status of the Related List - Audits Schedule-Revision History(Audit Schedule #).</description>
+    <displayType>massActionButton</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <height>600</height>
+    <linkType>url</linkType>
+    <masterLabel>New Revision History (Audit Schedule #)</masterLabel>
+    <openType>sidebar</openType>
+    <protected>false</protected>
+    <requireRowSelection>false</requireRowSelection>
+    <url>/apex/CMPL123__LockRecord?objectType=Revision_History__c&amp;parentId={!BMX_Audits_Schedule__c.Id}&amp;relationShipName=Revision_Histories__r&amp;lookupField=Audit_Schedule_Number__c&amp;parentRecordName={!BMX_Audits_Schedule__c.Name}&amp;isRDC=false</url>
+</WebLink>

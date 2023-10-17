@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Limit_Edits_to_Lead_Auditor_Aud_Criteria</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+				
+    NOT(ISNEW()),
+				NOT( ISBLANK(Audit__c)) ,
+				
+    OR(
+        $User.Id = Audit__r.Lead_Auditor__c,
+        INCLUDES($User.TWD_Role__c, &quot;Audit Coordinator&quot;)
+    ),
+    NOT(
+        Audit__r.CMPL123_WF_Status__c = &apos;Audit Preparation&apos; ||
+        Audit__r.CMPL123_WF_Status__c = &apos;Initiated&apos;
+    )
+)</errorConditionFormula>
+    <errorMessage>Editing is only allowed when Quality Audit status is in &apos;Initiated&apos; or &apos;Preparation&apos;. Only Lead Auditor or a user with TWD role Audit Coordinator can edit Audit Criteria in this case.</errorMessage>
+</ValidationRule>

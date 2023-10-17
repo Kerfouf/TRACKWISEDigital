@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Function__c</fullName>
+    <externalId>false</externalId>
+    <label>Function</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Auditor</fullName>
+                <default>false</default>
+                <label>Auditor</label>
+            </value>
+            <value>
+                <fullName>Auditor in Training</fullName>
+                <default>false</default>
+                <label>Auditor in Training</label>
+            </value>
+            <value>
+                <fullName>Audit Schedule Coordinator</fullName>
+                <default>false</default>
+                <label>Audit Schedule Coordinator</label>
+            </value>
+            <value>
+                <fullName>Corporate Process Owner</fullName>
+                <default>false</default>
+                <label>Corporate Process Owner</label>
+            </value>
+            <value>
+                <fullName>CQA Director</fullName>
+                <default>false</default>
+                <label>CQA Director</label>
+            </value>
+            <value>
+                <fullName>Distributor Respresentative</fullName>
+                <default>false</default>
+                <label>Distributor Respresentative</label>
+            </value>
+            <value>
+                <fullName>EC member</fullName>
+                <default>false</default>
+                <label>EC member</label>
+            </value>
+            <value>
+                <fullName>Global QA</fullName>
+                <default>false</default>
+                <label>Global QA</label>
+            </value>
+            <value>
+                <fullName>Head of Department / Function</fullName>
+                <default>false</default>
+                <label>Head of Department / Function</label>
+            </value>
+            <value>
+                <fullName>Head of Entity / Site / Sub</fullName>
+                <default>false</default>
+                <label>Head of Entity / Site / Sub</label>
+            </value>
+            <value>
+                <fullName>Industrialization Representative</fullName>
+                <default>false</default>
+                <label>Industrialization Representative</label>
+            </value>
+            <value>
+                <fullName>Lead Auditor</fullName>
+                <default>false</default>
+                <label>Lead Auditor</label>
+            </value>
+            <value>
+                <fullName>Local Manufacturing</fullName>
+                <default>false</default>
+                <label>Local Manufacturing</label>
+            </value>
+            <value>
+                <fullName>Local Process Owner</fullName>
+                <default>false</default>
+                <label>Local Process Owner</label>
+            </value>
+            <value>
+                <fullName>Local QA</fullName>
+                <default>false</default>
+                <label>Local QA</label>
+            </value>
+            <value>
+                <fullName>Observer</fullName>
+                <default>false</default>
+                <label>Observer</label>
+            </value>
+            <value>
+                <fullName>Others</fullName>
+                <default>false</default>
+                <label>Others</label>
+            </value>
+            <value>
+                <fullName>Process Owner Manage Purchasing</fullName>
+                <default>false</default>
+                <label>Process Owner Manage Purchasing</label>
+            </value>
+            <value>
+                <fullName>Purchasing Representative</fullName>
+                <default>false</default>
+                <label>Purchasing Representative</label>
+            </value>
+            <value>
+                <fullName>Quality Board Member</fullName>
+                <default>false</default>
+                <label>Quality Board Member</label>
+            </value>
+            <value>
+                <fullName>Quality Control Representative</fullName>
+                <default>false</default>
+                <label>Quality Control Representative</label>
+            </value>
+            <value>
+                <fullName>Regional Commercial</fullName>
+                <default>false</default>
+                <label>Regional Commercial</label>
+            </value>
+            <value>
+                <fullName>Regional Manufacturing</fullName>
+                <default>false</default>
+                <label>Regional Manufacturing</label>
+            </value>
+            <value>
+                <fullName>Regional QA</fullName>
+                <default>false</default>
+                <label>Regional QA</label>
+            </value>
+            <value>
+                <fullName>Supplier representative(s)</fullName>
+                <default>false</default>
+                <label>Supplier representative(s)</label>
+            </value>
+            <value>
+                <fullName>Supplier Steering Committee members</fullName>
+                <default>false</default>
+                <label>Supplier Steering Committee members</label>
+            </value>
+            <value>
+                <fullName>Supply Chain Representative</fullName>
+                <default>false</default>
+                <label>Supply Chain Representative</label>
+            </value>
+            <value>
+                <fullName>Technical Expert</fullName>
+                <default>false</default>
+                <label>Technical Expert</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

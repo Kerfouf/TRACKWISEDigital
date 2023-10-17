@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>QMS_Sub_Category__c</fullName>
+    <externalId>false</externalId>
+    <label>QMS Sub-Category</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>QMS_Category__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetName>QMS_Sub_Category</valueSetName>
+        <valueSettings>
+            <controllingFieldValue>Measurement, analysis and improvement</controllingFieldValue>
+            <valueName>Actions in response to nonconforming product detected after delivery</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Measurement, analysis and improvement</controllingFieldValue>
+            <valueName>Actions in response to nonconforming product detected before delivery</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Measurement, analysis and improvement</controllingFieldValue>
+            <valueName>Analysis of data</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Measurement, analysis and improvement</controllingFieldValue>
+            <valueName>Complaint handling</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Measurement, analysis and improvement</controllingFieldValue>
+            <valueName>Corrective Action</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Measurement, analysis and improvement</controllingFieldValue>
+            <valueName>Feedback</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Measurement, analysis and improvement</controllingFieldValue>
+            <valueName>Internal audit</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Measurement, analysis and improvement</controllingFieldValue>
+            <valueName>Monitoring and measurement of processes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Measurement, analysis and improvement</controllingFieldValue>
+            <valueName>Monitoring and measurement of product</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Measurement, analysis and improvement</controllingFieldValue>
+            <valueName>Nonconforming product procedure</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Measurement, analysis and improvement</controllingFieldValue>
+            <valueName>Planning and Implementation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Measurement, analysis and improvement</controllingFieldValue>
+            <valueName>Preventive Action</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Measurement, analysis and improvement</controllingFieldValue>
+            <valueName>Product, production and quality process changes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Measurement, analysis and improvement</controllingFieldValue>
+            <valueName>Reporting to regulatory authorities</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Measurement, analysis and improvement</controllingFieldValue>
+            <valueName>Rework</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Management Responsibility</controllingFieldValue>
+            <valueName>Customer focus</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Management Responsibility</controllingFieldValue>
+            <valueName>Internal Communication</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Management Responsibility</controllingFieldValue>
+            <valueName>Management commitment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Management Responsibility</controllingFieldValue>
+            <valueName>Management representative</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Management Responsibility</controllingFieldValue>
+            <valueName>Management review inputs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Management Responsibility</controllingFieldValue>
+            <valueName>Management review outputs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Management Responsibility</controllingFieldValue>
+            <valueName>Management review process</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Management Responsibility</controllingFieldValue>
+            <valueName>QMS planning</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Management Responsibility</controllingFieldValue>
+            <valueName>Quality objectives</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Management Responsibility</controllingFieldValue>
+            <valueName>Quality policy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Management Responsibility</controllingFieldValue>
+            <valueName>Responsibility and authority</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product realization</controllingFieldValue>
+            <valueName>Cleanliness of product</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product realization</controllingFieldValue>
+            <valueName>Communication to customer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product realization</controllingFieldValue>
+            <valueName>Control of design and development changes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product realization</controllingFieldValue>
+            <valueName>Control of monitoring and measuring equipment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product realization</controllingFieldValue>
+            <valueName>Customer property</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product realization</controllingFieldValue>
+            <valueName>Design and development files</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product realization</controllingFieldValue>
+            <valueName>Design and development inputs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product realization</controllingFieldValue>
+            <valueName>Design and development outputs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product realization</controllingFieldValue>
+            <valueName>Design and development planning</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product realization</controllingFieldValue>
+            <valueName>Design and development procedures</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product realization</controllingFieldValue>
+            <valueName>Design and development review</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product realization</controllingFieldValue>
+            <valueName>Design and development transfer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product realization</controllingFieldValue>
+            <valueName>Design and development validation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product realization</controllingFieldValue>
+            <valueName>Design and development verification</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product realization</controllingFieldValue>
+            <valueName>Determination of regulatory and customer requirements related to product</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product realization</controllingFieldValue>
+            <valueName>Identification</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product realization</controllingFieldValue>
+            <valueName>Medical Device Installation activities</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product realization</controllingFieldValue>
+            <valueName>Particular requirements for sterile medical devices</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product realization</controllingFieldValue>
+            <valueName>Planning of product realization</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product realization</controllingFieldValue>
+            <valueName>Preservation of product</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product realization</controllingFieldValue>
+            <valueName>Production general requirements</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product realization</controllingFieldValue>
+            <valueName>Purchasing information</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product realization</controllingFieldValue>
+            <valueName>Purchasing procedures</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product realization</controllingFieldValue>
+            <valueName>Review of regulatory and customer requirements related to product</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product realization</controllingFieldValue>
+            <valueName>Servicing activities</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product realization</controllingFieldValue>
+            <valueName>Traceability</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product realization</controllingFieldValue>
+            <valueName>Validation of processes for production and service provision</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product realization</controllingFieldValue>
+            <valueName>Validation of processes for sterilization and sterile barrier systems</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product realization</controllingFieldValue>
+            <valueName>Verification of purchased product</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quality Management System</controllingFieldValue>
+            <valueName>Control of documents</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quality Management System</controllingFieldValue>
+            <valueName>Control of records</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quality Management System</controllingFieldValue>
+            <valueName>General documentation requirements</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quality Management System</controllingFieldValue>
+            <valueName>Medical device file</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quality Management System</controllingFieldValue>
+            <valueName>Outsourced process</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quality Management System</controllingFieldValue>
+            <valueName>Process definition and implementation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quality Management System</controllingFieldValue>
+            <valueName>Process monitoring and effectiveness</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quality Management System</controllingFieldValue>
+            <valueName>QMS change control</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quality Management System</controllingFieldValue>
+            <valueName>QMS implementation and maintenance</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quality Management System</controllingFieldValue>
+            <valueName>QMS software validation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quality Management System</controllingFieldValue>
+            <valueName>Quality Manual</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Resource management</controllingFieldValue>
+            <valueName>Contamination control</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Resource management</controllingFieldValue>
+            <valueName>Human resources</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Resource management</controllingFieldValue>
+            <valueName>Infrastructure</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Resource management</controllingFieldValue>
+            <valueName>Provision of resources</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Resource management</controllingFieldValue>
+            <valueName>Work environment</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

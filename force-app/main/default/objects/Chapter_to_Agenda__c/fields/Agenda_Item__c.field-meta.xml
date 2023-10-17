@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Agenda_Item__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <label>Agenda Item</label>
+    <referenceTo>Audit_Agenda_Item__c</referenceTo>
+    <relationshipLabel>Chapters to Agenda</relationshipLabel>
+    <relationshipName>Chapters_to_Agenda</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

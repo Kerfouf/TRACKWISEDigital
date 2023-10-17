@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Auditee_Country__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <label>Auditee Country</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>CMPL123CME__Complaint_Code__c.CMPL123CME__Type__c</field>
+            <operation>equals</operation>
+            <value>COUNTRY CODE</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>CMPL123CME__Complaint_Code__c</referenceTo>
+    <relationshipLabel>Quality Audits</relationshipLabel>
+    <relationshipName>Quality_Audits</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

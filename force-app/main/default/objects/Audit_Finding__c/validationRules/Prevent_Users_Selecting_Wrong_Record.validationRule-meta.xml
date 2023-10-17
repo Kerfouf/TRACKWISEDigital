@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Prevent_Users_Selecting_Wrong_Record</fullName>
+    <active>true</active>
+    <errorConditionFormula>RecordType.Name  &lt;&gt;  Parent_Audit__r.RecordType.Name</errorConditionFormula>
+    <errorMessage>You cannot create an Audit Finding with a different record type than the Quality Audit. Please select the correct record .</errorMessage>
+</ValidationRule>

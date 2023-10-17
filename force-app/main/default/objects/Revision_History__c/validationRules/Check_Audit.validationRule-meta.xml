@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Check_Audit</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+    NOT(ISPICKVAL(Schedule_Change_Reason__c, &apos;Yearly focus objectives of the schedule&apos;)),
+    NOT(ISPICKVAL(Schedule_Change_Reason__c, &apos;Creation of the schedule&apos;)),
+    NOT(ISBLANK(TEXT(Schedule_Change_Reason__c))),
+    ISBLANK(Audit_Code__c)
+)</errorConditionFormula>
+    <errorDisplayField>Audit_Code__c</errorDisplayField>
+    <errorMessage>Audit Field is Mandatory when Schedule_Change_Reason is not “Yearly focus Objective of the schedule” or “Creation of the schedule”</errorMessage>
+</ValidationRule>

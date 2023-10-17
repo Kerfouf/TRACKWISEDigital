@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Audited_Subjects__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <label>Audited Subject(s)</label>
+    <referenceTo>Topic__c</referenceTo>
+    <relationshipLabel>Audit Agenda Items</relationshipLabel>
+    <relationshipName>Audit_Agenda_Items</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

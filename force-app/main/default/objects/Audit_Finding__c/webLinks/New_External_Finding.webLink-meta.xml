@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>New_External_Finding</fullName>
+    <availability>online</availability>
+    <displayType>massActionButton</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <height>600</height>
+    <linkType>url</linkType>
+    <masterLabel>New External Finding</masterLabel>
+    <openType>sidebar</openType>
+    <protected>false</protected>
+    <requireRowSelection>false</requireRowSelection>
+    <url>{!URLFOR(
+    &apos;/lightning/o/Audit_Finding__c/new?&amp;recordTypeId=&apos; 
+    + $Setup.External_Finding_record__c.External_Finding__c 
+    + &apos;&amp;defaultFieldValues=Parent_Audit__c=&apos; 
+    + URLENCODE(BMX_Quality_Audit__c.Id) 
+    + &apos;,Scope__c=&apos; 
+    + URLENCODE(TEXT(BMX_Quality_Audit__c.Scope__c))
+    + &apos;&amp;backgroundContext=/lightning/r/BMX_Quality_Audit__c/&apos; 
+    + URLENCODE(BMX_Quality_Audit__c.Id) 
+    + &apos;/view&apos;
+)}</url>
+</WebLink>

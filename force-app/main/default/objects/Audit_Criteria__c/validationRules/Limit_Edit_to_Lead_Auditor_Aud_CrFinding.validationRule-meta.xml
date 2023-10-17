@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Limit_Edit_to_Lead_Auditor_Aud_CrFinding</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+    NOT(ISNEW()), 
+				NOT( ISBLANK(Audit_Finding__c)) ,
+    OR(
+        $User.Id = Audit_Finding__r.Lead_Auditor_Action_Plan_Approval_1__c,
+        INCLUDES($User.TWD_Role__c, &quot;Audit Coordinator&quot;)
+    ),
+    NOT(Audit_Finding__r.CMPL123_WF_Status__c = &apos;Initiated&apos;)
+)</errorConditionFormula>
+    <errorMessage>Editing is only allowed when Audit Finding status is in &quot;Initiated&quot;. Only Lead Auditor or a user with TWD role Audit Coordinator can edit Audit Criteria in this case.</errorMessage>
+</ValidationRule>

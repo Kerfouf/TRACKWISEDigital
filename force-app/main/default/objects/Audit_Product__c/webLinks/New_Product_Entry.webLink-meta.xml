@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>New_Product_Entry</fullName>
+    <availability>online</availability>
+    <description>This button was created by TrackWise Digital to check the status of the Related List - Quality Audit-Audit Product(Audit #).</description>
+    <displayType>massActionButton</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <height>600</height>
+    <linkType>url</linkType>
+    <masterLabel>New Product Entry</masterLabel>
+    <openType>sidebar</openType>
+    <protected>false</protected>
+    <requireRowSelection>false</requireRowSelection>
+    <url>/apex/CMPL123__LockRecord?objectType=Audit_Product__c&amp;parentId={!BMX_Quality_Audit__c.Id}&amp;relationShipName=Audit_Products__r&amp;lookupField=Audit__c&amp;parentRecordName={!BMX_Quality_Audit__c.Name}&amp;isRDC=false</url>
+</WebLink>

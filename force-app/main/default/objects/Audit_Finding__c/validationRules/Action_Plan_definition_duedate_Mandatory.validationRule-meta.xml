@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Action_Plan_definition_duedate_Mandatory</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND( 
+				RecordType.DeveloperName = &quot;External&quot;,
+    Parent_Audit__r.CMPL123_WF_Action__c = &quot;Report/Finding Created - Ready for Approval&quot;,
+    ISBLANK(Action_Plan_Definition_Due_Date__c) 
+)</errorConditionFormula>
+    <errorMessage>Please provide a value for Action Plan definition due date</errorMessage>
+</ValidationRule>

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Associated_Steering_committee_s__c</fullName>
+    <externalId>false</externalId>
+    <label>Associated Steering committee(s)</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>BIOMERIEUX PERFORMANCE SOLUTIONS</fullName>
+                <default>false</default>
+                <label>BIOMERIEUX PERFORMANCE SOLUTIONS</label>
+            </value>
+            <value>
+                <fullName>CALIBRATION (FRENCH SITES)</fullName>
+                <default>false</default>
+                <label>CALIBRATION (FRENCH SITES)</label>
+            </value>
+            <value>
+                <fullName>COMBOURG</fullName>
+                <default>false</default>
+                <label>COMBOURG</label>
+            </value>
+            <value>
+                <fullName>COMBOURG INSTRUMENTS</fullName>
+                <default>false</default>
+                <label>COMBOURG INSTRUMENTS</label>
+            </value>
+            <value>
+                <fullName>CRAPONNE</fullName>
+                <default>false</default>
+                <label>CRAPONNE</label>
+            </value>
+            <value>
+                <fullName>DURHAM</fullName>
+                <default>false</default>
+                <label>DURHAM</label>
+            </value>
+            <value>
+                <fullName>EQUIPEMENT</fullName>
+                <default>false</default>
+                <label>EQUIPEMENT</label>
+            </value>
+            <value>
+                <fullName>FIRENZE</fullName>
+                <default>false</default>
+                <label>FIRENZE</label>
+            </value>
+            <value>
+                <fullName>FIRENZE I&amp;S</fullName>
+                <default>false</default>
+                <label>FIRENZE I&amp;S</label>
+            </value>
+            <value>
+                <fullName>FIRENZE INDIRECT</fullName>
+                <default>false</default>
+                <label>FIRENZE INDIRECT</label>
+            </value>
+            <value>
+                <fullName>GRENOBLE</fullName>
+                <default>false</default>
+                <label>GRENOBLE</label>
+            </value>
+            <value>
+                <fullName>INDUSTRIAL MAINTENANCE (FRENCH SITES)</fullName>
+                <default>false</default>
+                <label>INDUSTRIAL MAINTENANCE (FRENCH SITES)</label>
+            </value>
+            <value>
+                <fullName>IS</fullName>
+                <default>false</default>
+                <label>IS</label>
+            </value>
+            <value>
+                <fullName>LA BALME I&amp;S</fullName>
+                <default>false</default>
+                <label>LA BALME I&amp;S</label>
+            </value>
+            <value>
+                <fullName>LA BALME IDC</fullName>
+                <default>false</default>
+                <label>LA BALME IDC</label>
+            </value>
+            <value>
+                <fullName>LA BALME INSTRUMENTS</fullName>
+                <default>false</default>
+                <label>LA BALME INSTRUMENTS</label>
+            </value>
+            <value>
+                <fullName>LOMBARD</fullName>
+                <default>false</default>
+                <label>LOMBARD</label>
+            </value>
+            <value>
+                <fullName>MARCY</fullName>
+                <default>false</default>
+                <label>MARCY</label>
+            </value>
+            <value>
+                <fullName>OEM</fullName>
+                <default>false</default>
+                <label>OEM</label>
+            </value>
+            <value>
+                <fullName>QUALIFICATION-VALIDATION (FRENCH SITES)</fullName>
+                <default>false</default>
+                <label>QUALIFICATION-VALIDATION (FRENCH SITES)</label>
+            </value>
+            <value>
+                <fullName>RIO</fullName>
+                <default>false</default>
+                <label>RIO</label>
+            </value>
+            <value>
+                <fullName>SAINT LOUIS INSTRUMENTS</fullName>
+                <default>false</default>
+                <label>SAINT LOUIS INSTRUMENTS</label>
+            </value>
+            <value>
+                <fullName>SAINT LOUIS REAGENTS</fullName>
+                <default>false</default>
+                <label>SAINT LOUIS REAGENTS</label>
+            </value>
+            <value>
+                <fullName>SHANGHAI</fullName>
+                <default>false</default>
+                <label>SHANGHAI</label>
+            </value>
+            <value>
+                <fullName>St. Vulbas IDC</fullName>
+                <default>false</default>
+                <label>St. Vulbas IDC</label>
+            </value>
+            <value>
+                <fullName>St. Vulbas Third Party Products</fullName>
+                <default>false</default>
+                <label>St. Vulbas Third Party Products</label>
+            </value>
+            <value>
+                <fullName>SUBSIDIARY SUPPLIER STEERING COMMITEE</fullName>
+                <default>false</default>
+                <label>SUBSIDIARY SUPPLIER STEERING COMMITEE</label>
+            </value>
+            <value>
+                <fullName>TRANSPORT EUROPE</fullName>
+                <default>false</default>
+                <label>TRANSPORT EUROPE</label>
+            </value>
+            <value>
+                <fullName>TRES CANTOS</fullName>
+                <default>false</default>
+                <label>TRES CANTOS</label>
+            </value>
+            <value>
+                <fullName>VERNIOLLE</fullName>
+                <default>false</default>
+                <label>VERNIOLLE</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

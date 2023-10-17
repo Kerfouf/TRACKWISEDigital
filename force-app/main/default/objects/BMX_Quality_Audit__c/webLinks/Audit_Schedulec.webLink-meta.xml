@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Audit_Schedulec</fullName>
+    <availability>online</availability>
+    <description>This button was created by TrackWise Digital to check the status of the Related List - Audits Schedule-Quality Audit(Audit Schedule #).</description>
+    <displayType>massActionButton</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <height>600</height>
+    <linkType>url</linkType>
+    <masterLabel>New Quality Audit (Audit Schedule #)</masterLabel>
+    <openType>sidebar</openType>
+    <protected>false</protected>
+    <requireRowSelection>false</requireRowSelection>
+    <url>/apex/CMPL123__LockRecord?objectType=BMX_Quality_Audit__c&amp;parentId={!BMX_Audits_Schedule__c.Id}&amp;relationShipName=Quality_Audits__r&amp;lookupField=Audit_Schedule__c&amp;parentRecordName={!BMX_Audits_Schedule__c.Name}&amp;isRDC=false</url>
+</WebLink>

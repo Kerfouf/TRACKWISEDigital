@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Schedule_Change_Reason__c</fullName>
+    <externalId>false</externalId>
+    <label>Schedule Change reason</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Addition of an Audit</fullName>
+                <default>false</default>
+                <label>Addition of an Audit</label>
+            </value>
+            <value>
+                <fullName>Cancellation of an Audit</fullName>
+                <default>false</default>
+                <label>Cancellation of an Audit</label>
+            </value>
+            <value>
+                <fullName>Change in the Audited site</fullName>
+                <default>false</default>
+                <label>Change in the Audited site</label>
+            </value>
+            <value>
+                <fullName>Change in the Audit method</fullName>
+                <default>false</default>
+                <label>Change in the Audit method</label>
+            </value>
+            <value>
+                <fullName>Change in the Audit objectives</fullName>
+                <default>false</default>
+                <label>Change in the Audit objectives</label>
+            </value>
+            <value>
+                <fullName>Change in the Audit scheduled quarter</fullName>
+                <default>false</default>
+                <label>Change in the Audit scheduled quarter</label>
+            </value>
+            <value>
+                <fullName>Change in the Audit title</fullName>
+                <default>false</default>
+                <label>Change in the Audit title</label>
+            </value>
+            <value>
+                <fullName>Change of the Reason for Audit</fullName>
+                <default>false</default>
+                <label>Change of the Reason for Audit</label>
+            </value>
+            <value>
+                <fullName>Creation of the schedule</fullName>
+                <default>false</default>
+                <label>Creation of the schedule</label>
+            </value>
+            <value>
+                <fullName>Yearly focus objectives of the schedule</fullName>
+                <default>false</default>
+                <label>Yearly focus objectives of the schedule</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

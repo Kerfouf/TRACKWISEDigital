@@ -1,0 +1,48 @@
+<template>
+  <div if:true={displaySearchAndAddPanel}>
+    <div class="slds-grid slds-wrap">
+      <div class="slds-col slds-size_1-of-1 slds-medium-size_14-of-12 slds-p-left_medium">
+        <h1 class="slds-text-heading_medium slds-hyphenate">Run File Analysis Information</h1>
+        <div class="slds-grid slds-wrap slds-p-top_medium slds-clearfix">
+          <div class="slds-col slds-size_1-of-3 slds-medium-size_6-of-12">
+            <lightning-input class="serialNumberInput" type="text" label={SERIAL_NUMBER}></lightning-input>
+          </div>
+          <div class="slds-col slds-size_1-of-3 slds-medium-size_2-of-12 slds-text-align_center">
+            <button class="slds-button slds-button_brand slds-m-top_medium" onclick={submitDetails}
+              title="OK">Retrieve</button>
+          </div>
+        </div>
+      </div>
+      <div if:true={displayGrid}>
+        <div class="slds-col slds-size_1-of-1 slds-medium-size_12-of-12 slds-p-left_medium slds-p-top_medium">
+          <lightning-datatable key-field="id" data={runFileAnalysis} columns={columns} onrowselection={onRowSelect}
+            class="slds-table slds-table_bordered slds-table_cell-buffer">
+          </lightning-datatable>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div if:true={displayLoadingPanel}>
+    <div class="spinner slds-p-top_medium">
+      <lightning-spinner alternative-text={labels.LOADING} size="medium"></lightning-spinner>
+    </div>
+  </div>
+  <div class="slds-m-top_large slds-p-left_medium slds-p-right_medium my-custom-class">
+    <template if:true={saveButtonEnabled}>
+      <template if:false={displayNotPossibleToAddSAPProducts}>
+        <lightning-button variant="brand" label={labels.SAVE} onclick={handleSaveAndClose} disabled={saveButtonDisable}></lightning-button>
+      </template>
+    </template>
+    <template if:false={saveButtonEnabled}>
+      <template if:false={displayNotPossibleToAddSAPProducts}>
+         <lightning-button variant="success" label={labels.SAVE}
+          class="slds-m-left_x-small"></lightning-button>
+      </template>
+    </template>
+  </div>
+  <template if:true={displayNotPossibleToAddSAPProducts}>
+    <div class="slds-box notPossibleToAddProduct">
+      {labels.NOT_POSSIBLE_CREATE_IMP_LOT}
+    </div>
+  </template>
+</template>
